@@ -32,6 +32,23 @@ ENV BASHRC ${HOME}/.bashrc
 USER  ${REPRO_USER}
 WORKDIR $HOME
 
+ENV TEXLIVE_TARBALL install-tl-unx.tar.gz
+ENV TEXLIVE_DIR ${HOME}/texlive-dist
+
+# TEXLIVE installer options = a, f, p, P, D, F
+COPY texlive.profile .
+
+
+RUN echo '***** Download and install TexLive distribution *****'             \
+ && wget http://mirror.ctan.org/systems/texlive/tlnet/${TEXLIVE_TARBALL}     \
+ && tar -xvf ${TEXLIVE_TARBALL}                                              \
+       --one-top-level=${TEXLIVE_DIR}                                        \
+       --strip-components 1                                                  \
+ && rm ${TEXLIVE_TARBALL}                                                    \
+ && perl ${TEXLIVE_DIR}/install-tl --profile texlive.profile
+
+ENV PATH=/home/repro/texlive/2021/bin/x86_64-linux:$PATH
+
 RUN echo "export IN_RUNNING_REPRO=${REPRO_NAME}" >> ${BASHRC}
 RUN echo "cd ${REPRO_MNT}" >> ${BASHRC}
 
