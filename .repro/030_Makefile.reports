@@ -1,6 +1,6 @@
 ## 
 ## # Targets for creating the reports in this REPRO.
-## 
+##
 
 create-reports:          ## Run all of the examples.
 

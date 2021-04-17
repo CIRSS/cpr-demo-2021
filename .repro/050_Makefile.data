@@ -1,6 +1,6 @@
 ## 
 ## # Targets for managing the data in this REPRO.
-## 
+##
 
 get-data:                ## Run all of the examples.
 
