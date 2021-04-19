@@ -1,0 +1,31 @@
+\section{Introduction}
+
+An increasing number of publishers of peer-reviewed journals include verification of computational artifacts in their review processes.  Defining and achieving computational reproduciblility has proven thorny generally, but the particular issues these publishers aim to detect are well-defined. Specific questions representative publishers aim to answer with their verification workflows include:
+
+\begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
+
+\item Is the description in the text and supplementary materials sufficiently complete to allow others to repeat the reported computations?
+
+\item Does repeating the computations yield the reported results?
+
+\end{itemize}
+
+Platforms such as Binder and Whole Tale provide environments for assessing the reproducibility of computational artifacts by these standards via what is essentially \emph{black-box testing} of the computational workflow: a verifier follows the instructions given in the paper to set up the required computational environment and to stage input data; triggers the start of a set of automated computations and allows them to run to completion; and finally confirms that the products of the computations match the description in the paper.
+
+Whole Tale further aims to enable verifiers to observe \emph{how} automated computational workflows produce intermediate and final artifacts. This will allow publishers to ask a third general question:
+
+\begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
+
+\item Is the authors' description of the roles played by various software components comprising the overall computational workflow compatible with the actual flow of data through those components?
+
+\end{itemize}
+
+This capability will provide verifiers partial means for \emph{white-box} testing of the computations reported in a paper. Specifically, a verifier will be able to detect cases where the sequence of computations and flow of data between steps does not conform to the description given in the paper.  
+
+The demonstration described in this paper exercises the software system Whole Tale is developing to enable the recording, storing, querying, and visualizing of information captured while computational workflows execute within a Tale and highlights its capabilities.
+
+
+
+
+
+

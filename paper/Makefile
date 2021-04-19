@@ -1,18 +1,23 @@
 PAPER=main
 
-all: paper
+all: 	
+	pdflatex ${PAPER}.tex
+	bibtex ${PAPER}
+	pdflatex ${PAPER}.tex
+	pdflatex ${PAPER}.tex
 
 bib:
 	bibtex ${PAPER}
 
 clean:
-	bash -c	"rm -f ${PAPER}.{ps,pdf,log,aux,out,dvi,bbl,blg}"
-
-paper:
-	pdflatex ${PAPER}.tex
-	bibtex ${PAPER}
-	pdflatex ${PAPER}.tex
-	pdflatex ${PAPER}.tex
+	rm -f ${PAPER}.ps
+	rm -f ${PAPER}.pdf
+	rm -f ${PAPER}.log
+	rm -f ${PAPER}.aux
+	rm -f ${PAPER}.out
+	rm -f ${PAPER}.dvi
+	rm -f ${PAPER}.bbl
+	rm -f ${PAPER}.blg
 
 pdf:
 	pdflatex ${PAPER}.tex
