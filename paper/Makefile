@@ -27,6 +27,6 @@ pdf:
 	pdflatex ${PAPER}.tex
 
 watch: 
-	latexmk -pdf -pvc ${PAPER}.tex
+	bash watch.sh
 
 
