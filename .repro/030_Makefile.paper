@@ -1,0 +1,12 @@
+## 
+## # Targets for creating the reports in this REPRO.
+##
+
+build-paper:            ## Build the paper from sources.
+	$(RUN_IN_REPRO) 'make -C ${REPRO_PAPER_DIR} paper'
+
+watch-paper:            ## Monitor paper sources and rebuild when they change.
+	$(RUN_IN_REPRO) 'make -C ${REPRO_PAPER_DIR} watch'
+
+clean-paper:            ## Delete the paper and associated artifacts.
+	$(RUN_IN_REPRO) 'make -C ${REPRO_PAPER_DIR} clean'

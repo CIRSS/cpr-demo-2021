@@ -15,6 +15,7 @@ REPRO_DIR=/mnt/${REPRO_NAME}
 REPRO_CODE_DIR=src
 REPRO_EXAMPLES_DIR=examples
 REPRO_SERVICE_DIR=service
+REPRO_PAPER_DIR=paper
 
 # define command for running the service provided by this REPRO
 REPRO_SERVICE_COMMAND=${REPRO_SERVICE_DIR}/run.sh

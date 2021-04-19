@@ -8,7 +8,7 @@ default_target: help
 include .repro/000_Makefile.repro
 include .repro/010_Makefile.help
 include .repro/020_Makefile.examples
-include .repro/030_Makefile.reports
+include .repro/030_Makefile.paper
 include .repro/060_Makefile.services
 include .repro/080_Makefile.image
 include .repro/090_Makefile.aliases
