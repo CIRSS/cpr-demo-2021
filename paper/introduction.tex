@@ -1,6 +1,6 @@
 \section{Introduction}
 
-An increasing number of publishers of peer-reviewed journals verify computational artifacts as part of their review processes. Although defining and achieving computational reproduciblility has proven thorny generally, the particular problems publishers aim to detect in this context are well defined. Questions representative publishers answer via verification workflows include:
+An increasing number of journal publishers verify computational artifacts as part of the peer-review process. Although defining and achieving computational reproducibility has proven thorny generally, the particular problems publishers aim to detect in this context are well defined. Questions representative publishers answer via verification workflows include:
 
 \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
 
@@ -10,7 +10,7 @@ An increasing number of publishers of peer-reviewed journals verify computationa
 
 \end{itemize}
 
-Platforms such as Binder \cite{Binder_2018} and Whole Tale  \cite{brinckman2019computing} provide environments for assessing reproducibility of computational artifacts by these standards via what is essentially \emph{black-box testing} of the computational workflow. A verifier follows the instructions given in the paper to (1) set up the required computational environment; (2) stage input data; (3) trigger a sequence of automated computations; and (4) allow the computationst run to completion.  Finally the verifier confirms that the products of the computations match the description in the paper.
+Platforms such as Binder \cite{Binder_2018} and Whole Tale  \cite{brinckman2019computing} provide environments for assessing reproducibility of computational artifacts by these standards via what is essentially \emph{black-box testing} of the computational workflow. A verifier uses information provided in the paper to (1) set up the required computational environment; (2) stage input data; (3) trigger a sequence of automated computations; and (4) allow these computations to run to completion. Finally the verifier confirms that the products of the computations match the description in the paper.
 
 Whole Tale further aims to enable verifiers to observe \emph{how} automated computational workflows produce intermediate and final artifacts. Ultimately this will allow publishers to ask a third general question:
 
@@ -20,7 +20,7 @@ Whole Tale further aims to enable verifiers to observe \emph{how} automated comp
 
 \end{itemize}
 
-This capability will provide verifiers means for \emph{white-box} testing of the computations reported in a paper. Specifically, a verifier will detect cases where the sequence of computations and flow of data between steps does not conform to the description given in the paper. The demonstration described in this paper exercises and demonstrates capabilities of the tools Whole Tale employs to record, store, query, and visualize the flow of data through computational workflows executed within a Tale.
+This capability will provide verifiers means for \emph{white-box} testing of the computations reported in a paper. Specifically, it will enable a verifier to detect cases where the sequence of computational steps and flow of data between these steps does not conform to the description given in the paper. The demonstration described here exercises and demonstrates capabilities of the tools Whole Tale employs to record, store, query, and visualize the flow of data through computational workflows for this purpose.
 
 
 
