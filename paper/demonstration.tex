@@ -3,8 +3,29 @@
 The CPR demo is provided as a Git repository and associated Docker image that enable the examples to be run on any Linux, macOS, or Windows-based system with Git, Docker, and GNU Make installed.  Each example uses the CPR toolkit to record OS-level provenance information from a run of different computational workflow, to load a Blazegraph instance with the resulting CPR traces, and to produce a set of reports and visualizations via SPARQL queries.
 
 A Makefile in the top directory of the demo repository provides targets for pulling the Docker image from Dockerhub (\emph{pull-image}), building the Docker image locally (\emph{build-image}), for running the examples (\emph{run-examples}), and for deleting all of the reports, visualizations, and other artifacts generated for each example (\emph{clean-examples}). Because the expected results are included in the repository, successful reproduction of the example products is demonstrated by issuing the commands \emph{make clean-examples} and \emph{make run-examples} and confirming that \emph{git diff} reports no differences.
+ 
+\subsection{Queries and Visualizations}
 
-\subsection{Queries, Reports, and Visualizations}
+Queries and visualizations produced for each example included the following. A question phrased in English summarizes the intent of each.
 
+\emph{What files are employed as inputs and produced as outputs of the run?}
+
+\emph{What are the input and output data files for each process in the run?}
+
+\emph{Which files input to a run are used to produce a particular output file?}
+
+\emph{Which output artifacts are affected by a particular input file?}
+
+\emph{What programs and script invocations occur as part of the run?}
+
+\emph{What programs and script invocations contribute to the production of a particular output artifact?}
+
+\emph{What constraints on the order of execution of different processes does the observed flow of data imply?}
 
 \subsection{Observations}
+
+A key challenge in making provenance useful to researchers and verifiers alike is highlighting the small subset of recorded events of direct relevance to the scientific purpose of an execution.
+
+An execution of a one-line Python 3 script that prints "Hello World" can involve reading as many as X different files from disk in addition to the users' single-line Python file.
+ 
+CPR minimizes such provenance "noise" using a CPR profile that assigns distinct roles to files loaded from particular locations on the system.
