@@ -1,0 +1,10 @@
+\section{Demonstration}
+
+The CPR demo is provided as a Git repository and associated Docker image that enable the examples to be run on any Linux, macOS, or Windows-based system with Git, Docker, and GNU Make installed.  Each example uses the CPR toolkit to record OS-level provenance information from a run of different computational workflow, to load a Blazegraph instance with the resulting CPR traces, and to produce a set of reports and visualizations via SPARQL queries.
+
+A Makefile in the top directory of the demo repository provides targets for pulling the Docker image from Dockerhub (\emph{pull-image}), building the Docker image locally (\emph{build-image}), for running the examples (\emph{run-examples}), and for deleting all of the reports, visualizations, and other artifacts generated for each example (\emph{clean-examples}). Because the expected results are included in the repository, successful reproduction of the example products is demonstrated by issuing the commands \emph{make clean-examples} and \emph{make run-examples} and confirming that \emph{git diff} reports no differences.
+
+\subsection{Queries, Reports, and Visualizations}
+
+
+\subsection{Observations}
