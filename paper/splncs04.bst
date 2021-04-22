@@ -1528,7 +1528,7 @@ FUNCTION {begin.bib}
   if$
   "\begin{thebibliography}{"  longest.label  * "}" *
   write$ newline$
-  "\providecommand{\url}[1]{\texttt{#1}}"
+  "\providecommand{\url}[1]{\commandtext{#1}}"
   write$ newline$
   "\providecommand{\urlprefix}{URL }"
   write$ newline$
