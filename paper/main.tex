@@ -1,17 +1,24 @@
 \documentclass[runningheads]{llncs}
 
+%% use optional packages %%
 \usepackage{caption}
 \usepackage{enumitem}
 \usepackage{graphicx}
 
-\setlist[itemize]{leftmargin=3 mm, topsep=0 mm, itemsep=1 mm}
+%% custom styling %%
+\setlist[itemize]{leftmargin=3 mm,      % tighten layout of itemize lists 
+    topsep=0 mm, itemsep=1 mm}          
+\parindent 0mm                          % eliminate paragraph indentation 
+\parskip 2mm                            % put space between paragraphs
+\captionsetup{belowskip=-15pt}          % reduce padding below figure caption
+
+% macro for itemize items with tiny bullets
 \newcommand{\tinyitem}{\item[{\tiny$\bullet$}]}
 
-\parindent 0mm
-\parskip 2mm
-\captionsetup{belowskip=-15pt}
-
+% macro for formatting commands typed at a terminal
 \newcommand{\commandtext}[1]{{\fontfamily{pcr}\selectfont #1}}
+
+% macro for formatting names of computer programs
 \newcommand{\programname}[1]{{\fontfamily{pcr}\selectfont #1}}
 
 \begin{document}
