@@ -1,6 +1,6 @@
 \section{The CPR Toolkit}
 
-The CPR (Comprehensive Provenance Record) Toolkit is a suite of tools for recording, storing, querying, and visualizing the run-time provenance of artifacts produced by a run of a computational workflow. While the primary purpose of CPR  is to automate the monitoring and management of provenance-relevant events and records associated with a Whole Tale \emph{recorded run}, the toolkit can be employed in any Linux-based computing environment.
+The CPR (Comprehensible Provenance Record) Toolkit is a suite of tools for recording, storing, querying, and visualizing the run-time provenance of artifacts produced by a run of a computational workflow. While the primary purpose of CPR  is to automate the monitoring and management of provenance-relevant events and records associated with a Whole Tale \emph{recorded run}, the toolkit can be employed in any Linux-based computing environment.
 
 Figure 1 illustrates the flow of information through elements of the CPR toolkit. CPR employs \programname{ReproZip} to observe system calls invoked as part of the recorded run and to record metadata about (1) the operating-system level processes comprising the overall computation; (2) the files accessed by these processes; and (3) the access mode for file accesses, i.e. whether the process opened the file for reading, writing, or both. ReproZip captures and records all of this information in a SQLite database with a schema specific to ReproZip
 
