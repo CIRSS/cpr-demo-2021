@@ -1,8 +1,8 @@
-\subsection{Observations}
+\section{Observations}
 
-A key challenge in making provenance useful to researchers and verifiers alike is highlighting the small subset of recorded events of direct relevance to the scientific purpose of an execution. An execution of a one-line Python 3 script that prints "Hello World" can involve reading as many as X different files from disk in addition to the users' single-line Python file. CPR minimizes such provenance "noise" using a CPR profile that assigns distinct roles to files loaded from particular locations on the system.
+The computations and queries demonstrated here highlight a key challenge in making provenance useful to domain researchers and verifiers: highlighting the small subset of recorded events that are of direct relevance to the scientific purpose of an overall computational workflow. At a low level, execution of even a one-line Python 3 script that prints "Hello World" can involve reading tens of different files from disk in addition to the users' single-line Python file. CPR minimizes such provenance "noise" using SPARQL queries that select files and processes with particular relationships to other files and processes, informed by a user-provided run profile that assigns distinct roles to files loaded from particular locations on the system.  For example, it can be useful to hide processes that do not themselves read or write data files; a bash script that only invokes other programs that do process data files then becomes invisible. The bash script listed in Figure 2a is not depicted graphically in Figures 2c and 2d because the queries filter out processes that do not perform I/O on data files.
 
-It can be useful to hide processes that do not read or write data files.  A bash script that invokes other programs that do process data files then becomes invisible.
+%A second challenge to making provenance useful to domain specialists is providing vocabularies
+%Exporting a WT trace using the PROV or ProvONE vocabalaries is as simple as a trivial CONSTRUCT %query that extracts triples that already exist in the RDF dataset.  This is useful for depositing %in data repositories, e.g. DataONE which favors provenance expressed using the ProvONE vocabulary %exclusively.
 
-Exporting a WT trace using the PROV or ProvONE vocabalaries is as simple as a trivial CONSTRUCT query that extracts triples that already exist in the RDF dataset.  This is useful for depositing in data repositories, e.g. DataONE which favors provenance expressed using the ProvONE vocabulary exclusively.
 
