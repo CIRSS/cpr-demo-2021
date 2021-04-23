@@ -1,6 +1,6 @@
 \section{Demonstration}
 
-The CPR demo is provided as a Git repository and associated Docker image that enable the examples to be run on any Linux, macOS, or Windows-based system with Git, Docker, and GNU Make installed.  Each example uses the CPR toolkit to record OS-level provenance information from a run of different computational workflow, to load a Blazegraph instance with the resulting CPR traces, and to produce a set of reports and visualizations via SPARQL queries.
+The CPR demo is provided as a Git repository and associated Docker image that enable the examples to be run on any Linux, macOS, or Windows-based system with Git, Docker, and GNU Make installed. Each example uses the CPR toolkit to record OS-level provenance information from a run of different computational workflow, to load a Blazegraph instance with the resulting CPR traces, and to produce a set of reports and visualizations via SPARQL queries.
  
 A Makefile in the top directory of the demo repository provides targets for pulling the Docker image from Dockerhub (\commandtext{pull-image}), building the Docker image locally (\commandtext{build-image}), for running the examples (\commandtext{run-examples}), and for deleting all of the reports, visualizations, and other artifacts generated for each example (\commandtext{clean-examples}). Because the expected results are included in the repository, successful reproduction of the example products is demonstrated by issuing the commands \commandtext{make clean-examples} and \commandtext{make run-examples} and confirming that \commandtext{git diff} reports no differences.
 
@@ -63,4 +63,4 @@ roles:
 \end{figure}
  
 
-The examples range from the trivial and domain-independent, to relatively complex and domain-specific.  An example of minimal complexity that still demonstrates key capabalities of CPR is illustrated in Figure \ref{fig:cpr-example}. A simple bash script invokes the \commandtext{cat} command six times on different combinations of three input files to produce three intermediate files, and three final output files (each a distinct concatenation of the three input files).  
+The examples range from trivial and domain-independent, to relatively complex and domain-specific. An example of minimal complexity that still demonstrates key capabalities of CPR is illustrated in Figure \ref{fig:cpr-example}. A simple bash script invokes the \commandtext{cat} command six times on different combinations of three input files to produce three intermediate files and three final output files. The run profile and visualizations of two of the standard queries on a run of the script are included.
