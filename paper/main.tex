@@ -2,8 +2,25 @@
 
 %% use optional packages %%
 \usepackage{caption}
+\usepackage{color}
 \usepackage{enumitem}
 \usepackage{graphicx}
+\usepackage{listings}
+
+\lstset{ % General setup for the package
+    language=Bash,
+    basicstyle=\small\sffamily,
+    numbers=right,
+    numberstyle=\tiny,
+    frame=tb,
+    tabsize=4,
+    columns=fixed,
+    showstringspaces=false,
+    showtabs=false,
+    keepspaces,
+    commentstyle=\color{red},
+    keywordstyle=\color{blue}
+}
 
 %% custom styling %%
 \setlist[itemize]{leftmargin=3 mm,      % tighten layout of itemize lists 
