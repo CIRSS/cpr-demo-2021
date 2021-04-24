@@ -1,6 +1,6 @@
 \section{Demonstration}
 
-The CPR demo is provided as a Git repository and associated Docker image that enable the examples to be run on Linux, macOS, and Windows-based systems that have Git, Docker, and GNU Make installed. Each example uses the CPR toolkit to record OS-level provenance information from a run of a different computational workflow, to load a Blazegraph instance with the resulting CPR trace, and to produce a set of reports and visualizations via SPARQL queries.
+The CPR demo is provided as a Git repository\footnote{https://github.com/CIRSS/cpr-demo-2021} and associated Docker image that enable the examples to be run on Linux, macOS, and Windows-based systems that have Git, Docker, and GNU Make installed. Each example uses the CPR toolkit to record OS-level provenance information from a run of a different computational workflow, to load a Blazegraph instance with the resulting CPR trace, and to produce a set of reports and visualizations via SPARQL queries.
  
 A Makefile in the top directory of the demo repository provides targets for pulling the Docker image from Dockerhub (\commandtext{pull-image}), building the Docker image locally (\commandtext{build-image}), for running the examples (\commandtext{run-examples}), and for deleting all of the reports, visualizations, and other artifacts generated for each example (\commandtext{clean-examples}). Because the expected results are included in the repository, successful reproduction of the example products is demonstrated by issuing the commands \commandtext{make clean-examples} and \commandtext{make run-examples} and confirming that \commandtext{git diff} reports no differences.
 
@@ -68,8 +68,9 @@ roles:
         \caption{Flow of data files through processes comprising the run.}
         \label{subfig-whitebox}
     \end{subfigure}
-\caption{The ``black-box'' view in \figref{subfig-blackbox} provides ... whereas the ``white-box view'' in \figref{subfig-whitebox} ...}
+\caption{The run profile (a) indicates that files in the \commandtext{./temp} directory should be hidden in the ``black-box'' view (b), but displayed in the ``white-box'' view (c).}
 \label{fig-cpr-example}
+  \vspace*{-1.5em}
 \end{figure}
 
 
