@@ -7,34 +7,37 @@
 \usepackage{graphicx}
 \usepackage{listings}
 \usepackage{subcaption}
+\usepackage{xspace}
 
-\lstset{ % General setup for the package
-    language={},
-    basicstyle=\small,
-    tabsize=4,
-    columns=fixed,
-    showstringspaces=false,
-    showtabs=false,
-    keepspaces,
-    commentstyle=\color{red},
-    keywordstyle=\color{blue}
-}
+% \lstset{ % General setup for the package
+%     language={},
+%     basicstyle=\small,
+%     tabsize=4,
+%     columns=fixed,
+%     showstringspaces=false,
+%     showtabs=false,
+%     keepspaces,
+%     commentstyle=\color{red},
+%     keywordstyle=\color{blue}
+% }
 
 %% custom styling %%
 \setlist[itemize]{leftmargin=3 mm,      % tighten layout of itemize lists 
     topsep=0 mm, itemsep=1 mm}          
-\parindent 0mm                          % eliminate paragraph indentation 
-\parskip 2mm                            % put space between paragraphs
+% \parindent 0mm                          % eliminate paragraph indentation 
+% \parskip 2mm                            % put space between paragraphs
 %\captionsetup{belowskip=-15pt}          % reduce padding below figure caption
 
 % macro for itemize items with tiny bullets
 \newcommand{\tinyitem}{\item[{\tiny$\bullet$}]}
 
 % macro for formatting commands typed at a terminal
-\newcommand{\commandtext}[1]{{\fontfamily{pcr}\selectfont #1}}
+%\newcommand{\commandtext}[1]{{\fontfamily{pcr}\selectfont #1}}
+\newcommand{\commandtext}[1]{\texttt{#1}}
 
 % macro for formatting names of computer programs
-\newcommand{\programname}[1]{{\fontfamily{pcr}\selectfont #1}}
+%\newcommand{\programname}[1]{{\fontfamily{pcr}\selectfont #1}}
+\newcommand{\programname}[1]{\textsf{#1}\xspace}
 
 \author{
     Timothy M. McPhillips\inst{1} \and
@@ -55,7 +58,7 @@
 
 \begin{document}
 
-\title{CPR - A Comprehensible Provenance Record for Verification Workflows in Whole Tale}
+\title{CPR - A Comprehensible Provenance Record for Verification Workflows in Whole Tale\thanks{Work supported by NSF Award OAC-1541450.}}
 \titlerunning{A Comprehensible Provenance Record for Verification Workflows}
 
 \maketitle
