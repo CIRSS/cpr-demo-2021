@@ -8,11 +8,14 @@ CPR employs \programname{ReproZip} \cite{rampin_reprozip_2016} to observe system
 
 Once a recorded run is complete, the \programname{cpr} command-line utility extracts these OS-level records from the \programname{ReproZip} trace, transform them into RDF triples, and loads the triples into an RDF dataset in an instance of Blazegraph\footnote{https://github.com/blazegraph/database}. The triples are expressed using a vocabulary developed to represent provenance information in the context of Whole Tale recorded runs (\Figref{fig:cpr-vocab}). 
 
+\vspace*{-1.5em}
 \begin{figure}[h]
-    \includegraphics[width=\linewidth]{figures/cpr-vocab.pdf}
+    \centering
+    \includegraphics[width=0.95\linewidth]{figures/cpr-vocab.pdf}
     \caption{Relationship of key elements of the CPR vocabulary to classes and properties defined by the PROV and ProvONE vocabularies.}
     \label{fig:cpr-vocab}
 \end{figure}
+\vspace*{-1.5em}
 
 The CPR vocabulary extends PROV\footnote{https://www.w3.org/TR/prov-dm/} and ProvONE \cite{provone_2015} with subclasses specific to Whole Tale to unambiguously represent run-time provenance records captured from multiple recorded runs and distinct versions of a particular Tale. CPR can represent this vocabulary either as Datalog facts or as RDF triples. Because Blazegraph provides an eager reasoner, all triples implied by the subclass relationships are generated automatically when loading a CPR trace into \programname{Blazegraph}. Consequently, a CPR trace, asserted using the CPR vocabulary, can be queried in terms of the PROV and ProvONE vocabularies without using a reasoner at query time.
 
