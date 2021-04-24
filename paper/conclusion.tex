@@ -1,0 +1,8 @@
+\section{Conclusion}
+
+CPR provides a toolkit and vocabulary that aims to make the computational provenance of artifacts comprehensible by domain researchers. By specifically highlighting entities researchers in many domains actually think about when planning, describing, and understanding computations--data files, programs, program executions, flow of data between program executions, etc--CPR makes traces of computational workflows transparent and actionable, and enable verifiers and others in the community to judge whether the computations were performed appropriately.
+
+In addition to directly leveraging the capabilities of ReproZip, CPR complements existing tools for recording provenance at the operating-system level--including ReproZip and SciUnit which employ execution tracing to identify files that must be packaged to make the computation repeatable on a different system; the CamFlow/CamQuery system which captures whole-system provenance for the purpose of system audit; and the SPADE system which supports auditing in distributed environments. These tools in turn complement provenance-recording and management tools that target specific programming languages and environments, including noWorkflow, which employs Python reflection, and the Matlab DataONE toolbox. By observing computation that occurs \emph{within} processes these latter tools provide views of computational provenance that system-level cannot.
+
+Whole Tale ultimately aims to make its provenance records not just comprehensible but also comprehensive. This will require integrating provenance recording tools and vocabularies at multiple levels of abstraction and granularity.
+
