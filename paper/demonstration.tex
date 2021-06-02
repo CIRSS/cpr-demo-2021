@@ -32,44 +32,45 @@ Query results and visualizations for each example provide answers to standard qu
 The example computations range from trivial and domain-independent, to relatively complex and domain-specific. An example of minimal complexity that still demonstrates key capabilities of CPR is illustrated in Figures \ref{fig-script} and \ref{fig-cpr-example}. A simple bash script (\figref{fig-script}) invokes the \commandtext{cat} command six times on different combinations of three input files to produce three intermediate files and three final output files. The run profile (\figref{subfig-profile}) allows CPR to identify data files and to ignore system files that are needed to run the script but are otherwise irrelevant to the questions a verifier typically asks.  The visualizations satisfying queries 2 and 3 are included for a run of this script (\figref{subfig-blackbox} and \figref{subfig-whitebox}) and depict the answers as dataflow graphs. We expect the visualization answering query 3 to be the main CPR artifact a verifier will use to compare the record of execution with the description of the computation in a paper. Visualizations answering queries 4 and 5 can be considered subgraphs of the visualization for query 3 limited to nodes and edges relevant to a single output or input file.
  
 \begin{figure}[th]
-        \centering          
-\begin{subfigure}[c]{0.18\linewidth}
-\begin{verbatim}
-roles:
-  os:
-    - /etc
-    - /usr/lib
-  sw:
-    - /usr/bin
-  in:
-    - ./inputs
-  out:
-    - ./outputs
-  tmp:
-    - ./temp
-\end{verbatim}
-  \vspace*{-1em}
-            \caption{Run profile.}
-            \label{subfig-profile}
-        \end{subfigure}
-\hfill
-        \begin{subfigure}[c]{0.69\linewidth}
-          \centering
-            \includegraphics[width=0.92\linewidth]{cpr_run_inputs_outputs.pdf}
-            \caption{Visualization of inputs and outputs of the run as a whole.}
-            \label{subfig-blackbox}
-        \end{subfigure} 
+  \centering          
+  \begin{subfigure}[c]{0.18\linewidth}
+    \begin{verbatim}
+  roles:
+    os:
+      - /etc
+      - /usr/lib
+    sw:
+      - /usr/bin
+    in:
+      - ./inputs
+    out:
+      - ./outputs
+    tmp:
+      - ./temp
+    \end{verbatim}
+    \vspace*{-2em}
+    \caption{Run profile.}
+    \label{subfig-profile}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[c]{0.69\linewidth}
+    \includegraphics[width=0.92\linewidth]{cpr_run_inputs_outputs.pdf}
+    \caption{Visualization of inputs and outputs of the run as a whole.}
+    \label{subfig-blackbox}
+    \vspace*{-4.8em}
+  \end{subfigure} 
 
-\medskip
-
-\centering 
-\begin{subfigure}[b]{0.9\linewidth}
-        {\includegraphics[width=1.0\linewidth]{cpr_processes_and_data_files.pdf}}
-        \caption{Flow of data files through processes comprising the run.}
-        \label{subfig-whitebox}
-    \end{subfigure}
-\caption{The run profile (a) indicates that files in the \commandtext{./temp} directory should be hidden in the ``black-box'' view (b), but displayed in the ``white-box'' view (c).}
-\label{fig-cpr-example}
+   
+  \vspace*{1em}
+  \begin{subfigure}[b]{0.9\linewidth}
+    {\includegraphics[width=1.0\linewidth]{cpr_processes_and_data_files.pdf}}
+    \caption{Flow of data files through processes comprising the run.}
+    \label{subfig-whitebox}
+  \end{subfigure}
+  \caption{The run profile (a) indicates that files in the \commandtext{./temp} 
+          directory should be hidden in the ``black-box'' view (b), but displayed
+          in the ``white-box'' view (c).}
+  \label{fig-cpr-example}
   \vspace*{-1.5em}
 \end{figure}
 
