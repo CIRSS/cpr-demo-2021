@@ -145,8 +145,6 @@ RUN echo '***** Download and build XSB 3.8 *****'                            \
 
 # ENV PATH=/home/repro/texlive/2021/bin/x86_64-linux:$PATH
 
-ENV GOPATH ${REPRO_MNT}/.gopath
-
 RUN echo "PATH=${REPRO_MNT}/binaries:${USER_BIN}:${GOPATH}/bin:${HOME}/go/bin:/usr/local/go/bin:${PATH}" >> ${BASHRC}
 RUN echo "export IN_RUNNING_REPRO=${REPRO_NAME}" >> ${BASHRC}
 RUN echo "cd ${REPRO_MNT}" >> ${BASHRC}

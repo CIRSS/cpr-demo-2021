@@ -3,4 +3,5 @@ Programs executed during the run:
 program
 ============
 ./run.sh
+/bin/date
 /usr/bin/date

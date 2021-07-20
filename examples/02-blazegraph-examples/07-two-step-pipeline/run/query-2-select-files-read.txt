@@ -1,9 +1,11 @@
 Files opened for reading during the run and their roles:
 
-reader       | file                                 | role
-=========================================================
-/usr/bin/cat | ./inputs/file1.txt                   | in
-/usr/bin/cat | ./temp/file2.txt                     | tmp
-/usr/bin/cat | /etc/ld.so.cache                     | os
-/usr/bin/cat | /lib/x86_64-linux-gnu/libc.so.6      | os
-/usr/bin/cat | /usr/lib/x86_64-linux-gnu/ld-2.31.so | os
+reader   | file                                 | role
+=====================================================
+/bin/cat | ./inputs/file1.txt                   | in
+/bin/cat | ./temp/file2.txt                     | tmp
+/bin/cat | /bin/cat                             | sw
+/bin/cat | /etc/ld.so.cache                     | os
+/bin/cat | /lib/x86_64-linux-gnu/libc.so.6      | os
+/bin/cat | /usr/bin/cat                         | sw
+/bin/cat | /usr/lib/x86_64-linux-gnu/ld-2.31.so | os

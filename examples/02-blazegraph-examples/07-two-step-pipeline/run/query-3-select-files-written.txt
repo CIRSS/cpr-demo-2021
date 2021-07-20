@@ -1,6 +1,6 @@
 Files opened for writing during the run and their roles:
 
-writer       | file                | role
-=========================================
-/usr/bin/cat | ./outputs/file3.txt | out
-/usr/bin/cat | ./temp/file2.txt    | tmp
+writer   | file                | role
+=====================================
+/bin/cat | ./outputs/file3.txt | out
+/bin/cat | ./temp/file2.txt    | tmp

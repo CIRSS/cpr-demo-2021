@@ -43,7 +43,7 @@
 <execution/2> os:atTime "nil" .
 <execution/3> rdf:type os:Execution .
 <execution/3> os:startedProcess <process/2> .
-<execution/3> os:executedFile "/usr/bin/python3" .
+<execution/3> os:executedFile "/bin/python3" .
 <execution/3> os:resourcePath <fileresource/15> .
 <execution/3> os:hadWorkingDirectory "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace" .
 <execution/3> os:atTime "nil" .
@@ -177,13 +177,13 @@
 <process/2> os:performedAccess <process/2/access/46> .
 <process/2/access/46> rdf:type os:FileAccess .
 <process/2/access/46> os:resourcePath <fileresource/15> .
-<process/2/access/46> os:accessPath "/usr/bin/python3" .
+<process/2/access/46> os:accessPath "/bin/python3" .
 <process/2/access/46> os:accessStartTime "nil" .
 <process/2/access/46> os:resourceRole "sw" .
 <process/2> os:performedAccess <process/2/access/47> .
 <process/2/access/47> rdf:type os:FileAccess .
 <process/2/access/47> os:resourcePath <fileresource/15> .
-<process/2/access/47> os:accessPath "/usr/bin/python3" .
+<process/2/access/47> os:accessPath "/bin/python3" .
 <process/2/access/47> os:accessStartTime "nil" .
 <process/2/access/47> os:resourceRole "sw" .
 <process/2> os:performedAccess <process/2/access/48> .
@@ -750,8 +750,8 @@
 <fileresource/66> os:absolutePath "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
 <fileresource/66> os:relativePath "./hello.py" .
 <fileresource/15> rdf:type os:FileResource .
-<fileresource/15> os:absolutePath "/usr/bin/python3" .
-<fileresource/15> os:relativePath "/usr/bin/python3" .
+<fileresource/15> os:absolutePath "/bin/python3" .
+<fileresource/15> os:relativePath "/bin/python3" .
 <fileresource/8> rdf:type os:FileResource .
 <fileresource/8> os:absolutePath "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace" .
 <fileresource/8> os:relativePath "." .
@@ -801,11 +801,11 @@
 <fileresource/23> os:absolutePath "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache" .
 <fileresource/23> os:relativePath "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache" .
 <fileresource/15> rdf:type os:FileResource .
-<fileresource/15> os:absolutePath "/usr/bin/python3" .
-<fileresource/15> os:relativePath "/usr/bin/python3" .
+<fileresource/15> os:absolutePath "/bin/python3" .
+<fileresource/15> os:relativePath "/bin/python3" .
 <fileresource/15> rdf:type os:FileResource .
-<fileresource/15> os:absolutePath "/usr/bin/python3" .
-<fileresource/15> os:relativePath "/usr/bin/python3" .
+<fileresource/15> os:absolutePath "/bin/python3" .
+<fileresource/15> os:relativePath "/bin/python3" .
 <fileresource/25> rdf:type os:FileResource .
 <fileresource/25> os:absolutePath "/usr/lib/python3.8/os.py" .
 <fileresource/25> os:relativePath "/usr/lib/python3.8/os.py" .
@@ -1174,7 +1174,7 @@ Successfully created dataset traces
 <http://cirss.illinois.edu/runs/0/execution/3> <http://cirss.illinois.edu/ns/cpr/os#Argument> <http://cirss.illinois.edu/runs/0/execution/3/argument/0> .
 <http://cirss.illinois.edu/runs/0/execution/3> <http://cirss.illinois.edu/ns/cpr/os#Argument> <http://cirss.illinois.edu/runs/0/execution/3/argument/1> .
 <http://cirss.illinois.edu/runs/0/execution/3> <http://cirss.illinois.edu/ns/cpr/os#atTime> "nil" .
-<http://cirss.illinois.edu/runs/0/execution/3> <http://cirss.illinois.edu/ns/cpr/os#executedFile> "/usr/bin/python3" .
+<http://cirss.illinois.edu/runs/0/execution/3> <http://cirss.illinois.edu/ns/cpr/os#executedFile> "/bin/python3" .
 <http://cirss.illinois.edu/runs/0/execution/3> <http://cirss.illinois.edu/ns/cpr/os#hadWorkingDirectory> "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace" .
 <http://cirss.illinois.edu/runs/0/execution/3> <http://cirss.illinois.edu/ns/cpr/os#resourcePath> <http://cirss.illinois.edu/runs/0/fileresource/15> .
 <http://cirss.illinois.edu/runs/0/execution/3> <http://cirss.illinois.edu/ns/cpr/os#startedProcess> <http://cirss.illinois.edu/runs/0/process/2> .
@@ -1188,9 +1188,9 @@ Successfully created dataset traces
 <http://cirss.illinois.edu/runs/0/fileresource/14> <http://cirss.illinois.edu/ns/cpr/os#absolutePath> "/lib/x86_64-linux-gnu/libc.so.6" .
 <http://cirss.illinois.edu/runs/0/fileresource/14> <http://cirss.illinois.edu/ns/cpr/os#relativePath> "/lib/x86_64-linux-gnu/libc.so.6" .
 <http://cirss.illinois.edu/runs/0/fileresource/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cirss.illinois.edu/ns/cpr/os#FileResource> .
-<http://cirss.illinois.edu/runs/0/fileresource/15> <http://cirss.illinois.edu/ns/cpr/os#absolutePath> "/usr/bin/python3" .
+<http://cirss.illinois.edu/runs/0/fileresource/15> <http://cirss.illinois.edu/ns/cpr/os#absolutePath> "/bin/python3" .
 <http://cirss.illinois.edu/runs/0/fileresource/15> <http://cirss.illinois.edu/ns/cpr/os#absolutePath> "/usr/bin/python3.8" .
-<http://cirss.illinois.edu/runs/0/fileresource/15> <http://cirss.illinois.edu/ns/cpr/os#relativePath> "/usr/bin/python3" .
+<http://cirss.illinois.edu/runs/0/fileresource/15> <http://cirss.illinois.edu/ns/cpr/os#relativePath> "/bin/python3" .
 <http://cirss.illinois.edu/runs/0/fileresource/15> <http://cirss.illinois.edu/ns/cpr/os#relativePath> "/usr/bin/python3.8" .
 <http://cirss.illinois.edu/runs/0/fileresource/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cirss.illinois.edu/ns/cpr/os#FileResource> .
 <http://cirss.illinois.edu/runs/0/fileresource/16> <http://cirss.illinois.edu/ns/cpr/os#absolutePath> "/lib/x86_64-linux-gnu/libpthread.so.0" .
@@ -1640,12 +1640,12 @@ Successfully created dataset traces
 <http://cirss.illinois.edu/runs/0/process/2/access/45> <http://cirss.illinois.edu/ns/cpr/os#resourcePath> <http://cirss.illinois.edu/runs/0/fileresource/23> .
 <http://cirss.illinois.edu/runs/0/process/2/access/45> <http://cirss.illinois.edu/ns/cpr/os#resourceRole> "os" .
 <http://cirss.illinois.edu/runs/0/process/2/access/45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cirss.illinois.edu/ns/cpr/os#FileAccess> .
-<http://cirss.illinois.edu/runs/0/process/2/access/46> <http://cirss.illinois.edu/ns/cpr/os#accessPath> "/usr/bin/python3" .
+<http://cirss.illinois.edu/runs/0/process/2/access/46> <http://cirss.illinois.edu/ns/cpr/os#accessPath> "/bin/python3" .
 <http://cirss.illinois.edu/runs/0/process/2/access/46> <http://cirss.illinois.edu/ns/cpr/os#accessStartTime> "nil" .
 <http://cirss.illinois.edu/runs/0/process/2/access/46> <http://cirss.illinois.edu/ns/cpr/os#resourcePath> <http://cirss.illinois.edu/runs/0/fileresource/15> .
 <http://cirss.illinois.edu/runs/0/process/2/access/46> <http://cirss.illinois.edu/ns/cpr/os#resourceRole> "sw" .
 <http://cirss.illinois.edu/runs/0/process/2/access/46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cirss.illinois.edu/ns/cpr/os#FileAccess> .
-<http://cirss.illinois.edu/runs/0/process/2/access/47> <http://cirss.illinois.edu/ns/cpr/os#accessPath> "/usr/bin/python3" .
+<http://cirss.illinois.edu/runs/0/process/2/access/47> <http://cirss.illinois.edu/ns/cpr/os#accessPath> "/bin/python3" .
 <http://cirss.illinois.edu/runs/0/process/2/access/47> <http://cirss.illinois.edu/ns/cpr/os#accessStartTime> "nil" .
 <http://cirss.illinois.edu/runs/0/process/2/access/47> <http://cirss.illinois.edu/ns/cpr/os#resourcePath> <http://cirss.illinois.edu/runs/0/fileresource/15> .
 <http://cirss.illinois.edu/runs/0/process/2/access/47> <http://cirss.illinois.edu/ns/cpr/os#resourceRole> "sw" .
@@ -2071,7 +2071,7 @@ program
 =================
 ./hello.py
 ./run.sh
-/usr/bin/python3
+/bin/python3
 /usr/bin/python3.8
 
 
@@ -2108,7 +2108,37 @@ Files opened for reading during the run and their roles:
 
 reader                                                                                  | file                                                             | role
 ================================================================================================================================================================
+/bin/python3                                                                            | ./hello.py                                                       | sw
+/bin/python3                                                                            | /bin/python3                                                     | sw
+/bin/python3                                                                            | /etc/ld.so.cache                                                 | os
+/bin/python3                                                                            | /etc/localtime                                                   | os
+/bin/python3                                                                            | /lib/x86_64-linux-gnu/libc.so.6                                  | os
+/bin/python3                                                                            | /lib/x86_64-linux-gnu/libdl.so.2                                 | os
+/bin/python3                                                                            | /lib/x86_64-linux-gnu/libm.so.6                                  | os
+/bin/python3                                                                            | /lib/x86_64-linux-gnu/libpthread.so.0                            | os
+/bin/python3                                                                            | /lib/x86_64-linux-gnu/libutil.so.1                               | os
+/bin/python3                                                                            | /usr/bin/env                                                     | sw
+/bin/python3                                                                            | /usr/bin/python3.8                                               | sw
+/bin/python3                                                                            | /usr/lib/locale/C.UTF-8/LC_CTYPE                                 | os
+/bin/python3                                                                            | /usr/lib/python3.8/__pycache__/_collections_abc.cpython-38.pyc   | sw
+/bin/python3                                                                            | /usr/lib/python3.8/__pycache__/_sitebuiltins.cpython-38.pyc      | sw
+/bin/python3                                                                            | /usr/lib/python3.8/__pycache__/abc.cpython-38.pyc                | sw
+/bin/python3                                                                            | /usr/lib/python3.8/__pycache__/codecs.cpython-38.pyc             | sw
+/bin/python3                                                                            | /usr/lib/python3.8/__pycache__/genericpath.cpython-38.pyc        | sw
+/bin/python3                                                                            | /usr/lib/python3.8/__pycache__/io.cpython-38.pyc                 | sw
+/bin/python3                                                                            | /usr/lib/python3.8/__pycache__/os.cpython-38.pyc                 | sw
+/bin/python3                                                                            | /usr/lib/python3.8/__pycache__/posixpath.cpython-38.pyc          | sw
+/bin/python3                                                                            | /usr/lib/python3.8/__pycache__/site.cpython-38.pyc               | sw
+/bin/python3                                                                            | /usr/lib/python3.8/__pycache__/sitecustomize.cpython-38.pyc      | sw
+/bin/python3                                                                            | /usr/lib/python3.8/__pycache__/stat.cpython-38.pyc               | sw
+/bin/python3                                                                            | /usr/lib/python3.8/encodings/__pycache__/__init__.cpython-38.pyc | sw
+/bin/python3                                                                            | /usr/lib/python3.8/encodings/__pycache__/aliases.cpython-38.pyc  | sw
+/bin/python3                                                                            | /usr/lib/python3.8/encodings/__pycache__/latin_1.cpython-38.pyc  | sw
+/bin/python3                                                                            | /usr/lib/python3.8/encodings/__pycache__/utf_8.cpython-38.pyc    | sw
+/bin/python3                                                                            | /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache              | os
+/bin/python3                                                                            | /usr/lib/x86_64-linux-gnu/ld-2.31.so                             | os
 /mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | ./hello.py                                                       | sw
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /bin/python3                                                     | sw
 /mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /etc/ld.so.cache                                                 | os
 /mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /etc/localtime                                                   | os
 /mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /lib/x86_64-linux-gnu/libc.so.6                                  | os
@@ -2117,7 +2147,6 @@ reader                                                                          
 /mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /lib/x86_64-linux-gnu/libpthread.so.0                            | os
 /mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /lib/x86_64-linux-gnu/libutil.so.1                               | os
 /mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/bin/env                                                     | sw
-/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/bin/python3                                                 | sw
 /mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/bin/python3.8                                               | sw
 /mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/locale/C.UTF-8/LC_CTYPE                                 | os
 /mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/__pycache__/_collections_abc.cpython-38.pyc   | sw
@@ -2137,35 +2166,6 @@ reader                                                                          
 /mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/encodings/__pycache__/utf_8.cpython-38.pyc    | sw
 /mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache              | os
 /mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/x86_64-linux-gnu/ld-2.31.so                             | os
-/usr/bin/python3                                                                        | ./hello.py                                                       | sw
-/usr/bin/python3                                                                        | /etc/ld.so.cache                                                 | os
-/usr/bin/python3                                                                        | /etc/localtime                                                   | os
-/usr/bin/python3                                                                        | /lib/x86_64-linux-gnu/libc.so.6                                  | os
-/usr/bin/python3                                                                        | /lib/x86_64-linux-gnu/libdl.so.2                                 | os
-/usr/bin/python3                                                                        | /lib/x86_64-linux-gnu/libm.so.6                                  | os
-/usr/bin/python3                                                                        | /lib/x86_64-linux-gnu/libpthread.so.0                            | os
-/usr/bin/python3                                                                        | /lib/x86_64-linux-gnu/libutil.so.1                               | os
-/usr/bin/python3                                                                        | /usr/bin/env                                                     | sw
-/usr/bin/python3                                                                        | /usr/bin/python3                                                 | sw
-/usr/bin/python3                                                                        | /usr/bin/python3.8                                               | sw
-/usr/bin/python3                                                                        | /usr/lib/locale/C.UTF-8/LC_CTYPE                                 | os
-/usr/bin/python3                                                                        | /usr/lib/python3.8/__pycache__/_collections_abc.cpython-38.pyc   | sw
-/usr/bin/python3                                                                        | /usr/lib/python3.8/__pycache__/_sitebuiltins.cpython-38.pyc      | sw
-/usr/bin/python3                                                                        | /usr/lib/python3.8/__pycache__/abc.cpython-38.pyc                | sw
-/usr/bin/python3                                                                        | /usr/lib/python3.8/__pycache__/codecs.cpython-38.pyc             | sw
-/usr/bin/python3                                                                        | /usr/lib/python3.8/__pycache__/genericpath.cpython-38.pyc        | sw
-/usr/bin/python3                                                                        | /usr/lib/python3.8/__pycache__/io.cpython-38.pyc                 | sw
-/usr/bin/python3                                                                        | /usr/lib/python3.8/__pycache__/os.cpython-38.pyc                 | sw
-/usr/bin/python3                                                                        | /usr/lib/python3.8/__pycache__/posixpath.cpython-38.pyc          | sw
-/usr/bin/python3                                                                        | /usr/lib/python3.8/__pycache__/site.cpython-38.pyc               | sw
-/usr/bin/python3                                                                        | /usr/lib/python3.8/__pycache__/sitecustomize.cpython-38.pyc      | sw
-/usr/bin/python3                                                                        | /usr/lib/python3.8/__pycache__/stat.cpython-38.pyc               | sw
-/usr/bin/python3                                                                        | /usr/lib/python3.8/encodings/__pycache__/__init__.cpython-38.pyc | sw
-/usr/bin/python3                                                                        | /usr/lib/python3.8/encodings/__pycache__/aliases.cpython-38.pyc  | sw
-/usr/bin/python3                                                                        | /usr/lib/python3.8/encodings/__pycache__/latin_1.cpython-38.pyc  | sw
-/usr/bin/python3                                                                        | /usr/lib/python3.8/encodings/__pycache__/utf_8.cpython-38.pyc    | sw
-/usr/bin/python3                                                                        | /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache              | os
-/usr/bin/python3                                                                        | /usr/lib/x86_64-linux-gnu/ld-2.31.so                             | os
 
 
 ******************************************* query-3-select-files-written ************************************************

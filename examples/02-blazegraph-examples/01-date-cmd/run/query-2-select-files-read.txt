@@ -1,8 +1,10 @@
 Files opened for reading during the run and their roles:
 
-reader        | file                                 | role
-==========================================================
-/usr/bin/date | /etc/ld.so.cache                     | os
-/usr/bin/date | /etc/localtime                       | os
-/usr/bin/date | /lib/x86_64-linux-gnu/libc.so.6      | os
-/usr/bin/date | /usr/lib/x86_64-linux-gnu/ld-2.31.so | os
+reader    | file                                 | role
+======================================================
+/bin/date | /bin/date                            | sw
+/bin/date | /etc/ld.so.cache                     | os
+/bin/date | /etc/localtime                       | os
+/bin/date | /lib/x86_64-linux-gnu/libc.so.6      | os
+/bin/date | /usr/bin/date                        | sw
+/bin/date | /usr/lib/x86_64-linux-gnu/ld-2.31.so | os

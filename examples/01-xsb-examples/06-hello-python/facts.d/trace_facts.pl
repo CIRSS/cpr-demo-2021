@@ -10,7 +10,7 @@ cpr_process(p2, p1, r0, false, 0, nil).
 %---------------------------------------------------------------------------------------------------
 cpr_execution(e1, r0, p1, '/mnt/cpr-demo-2021/examples/01-xsb-examples/06-hello-python/./run.sh', '/mnt/cpr-demo-2021/examples/01-xsb-examples/06-hello-python', nil).
 cpr_execution(e2, r0, p2, '/mnt/cpr-demo-2021/examples/01-xsb-examples/06-hello-python/./hello.py', '/mnt/cpr-demo-2021/examples/01-xsb-examples/06-hello-python', nil).
-cpr_execution(e3, r0, p2, '/usr/bin/python3', '/mnt/cpr-demo-2021/examples/01-xsb-examples/06-hello-python', nil).
+cpr_execution(e3, r0, p2, '/bin/python3', '/mnt/cpr-demo-2021/examples/01-xsb-examples/06-hello-python', nil).
 
 %---------------------------------------------------------------------------------------------------
 % FACT: cpr_argument(ExecID, ArgIndex, ArgValue).
@@ -39,8 +39,8 @@ cpr_file_open(o34, r0, p2, '/lib/x86_64-linux-gnu/libutil.so.1', 1, false, nil).
 cpr_file_open(o35, r0, p2, '/lib/x86_64-linux-gnu/libm.so.6', 1, false, nil).
 cpr_file_open(o38, r0, p2, '/usr/lib/locale/C.UTF-8/LC_CTYPE', 1, false, nil).
 cpr_file_open(o39, r0, p2, '/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache', 1, false, nil).
-cpr_file_open(o40, r0, p2, '/usr/bin/python3', 8, false, nil).
-cpr_file_open(o41, r0, p2, '/usr/bin/python3', 24, false, nil).
+cpr_file_open(o40, r0, p2, '/bin/python3', 8, false, nil).
+cpr_file_open(o41, r0, p2, '/bin/python3', 24, false, nil).
 cpr_file_open(o42, r0, p2, '/usr/lib/python3.8/os.py', 8, false, nil).
 cpr_file_open(o43, r0, p2, '/usr/lib/python3.8/lib-dynload', 8, true, nil).
 cpr_file_open(o44, r0, p2, '/etc/localtime', 1, false, nil).
@@ -162,7 +162,7 @@ cpr_path_role(r0, '/tmp', i6, nul).
 %---------------------------------------------------------------------------------------------------
 cpr_accessed_path(e1, r0, './run.sh', i66, sw).
 cpr_accessed_path(e2, r0, './hello.py', i65, sw).
-cpr_accessed_path(e3, r0, '/usr/bin/python3', i13, sw).
+cpr_accessed_path(e3, r0, '/bin/python3', i13, sw).
 cpr_accessed_path(o20, r0, '.', i3, sw).
 cpr_accessed_path(o21, r0, '/usr/bin/env', i7, sw).
 cpr_accessed_path(o22, r0, '/usr/bin/env', i7, sw).
@@ -179,8 +179,8 @@ cpr_accessed_path(o34, r0, '/lib/x86_64-linux-gnu/libutil.so.1', i16, os).
 cpr_accessed_path(o35, r0, '/lib/x86_64-linux-gnu/libm.so.6', i17, os).
 cpr_accessed_path(o38, r0, '/usr/lib/locale/C.UTF-8/LC_CTYPE', i18, os).
 cpr_accessed_path(o39, r0, '/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache', i21, os).
-cpr_accessed_path(o40, r0, '/usr/bin/python3', i13, sw).
-cpr_accessed_path(o41, r0, '/usr/bin/python3', i13, sw).
+cpr_accessed_path(o40, r0, '/bin/python3', i13, sw).
+cpr_accessed_path(o41, r0, '/bin/python3', i13, sw).
 cpr_accessed_path(o42, r0, '/usr/lib/python3.8/os.py', i23, os).
 cpr_accessed_path(o43, r0, '/usr/lib/python3.8/lib-dynload', i25, os).
 cpr_accessed_path(o44, r0, '/etc/localtime', i26, os).

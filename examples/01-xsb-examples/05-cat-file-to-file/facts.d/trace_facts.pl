@@ -9,7 +9,7 @@ cpr_process(p2, p1, r0, false, 0, nil).
 % FACT: cpr_execution(ExecID, RunID, ProcessID, FilePath, WorkingDir, TimeStamp).
 %---------------------------------------------------------------------------------------------------
 cpr_execution(e1, r0, p1, '/mnt/cpr-demo-2021/examples/01-xsb-examples/05-cat-file-to-file/./run.sh', '/mnt/cpr-demo-2021/examples/01-xsb-examples/05-cat-file-to-file', nil).
-cpr_execution(e2, r0, p2, '/usr/bin/cat', '/mnt/cpr-demo-2021/examples/01-xsb-examples/05-cat-file-to-file', nil).
+cpr_execution(e2, r0, p2, '/bin/cat', '/mnt/cpr-demo-2021/examples/01-xsb-examples/05-cat-file-to-file', nil).
 
 %---------------------------------------------------------------------------------------------------
 % FACT: cpr_argument(ExecID, ArgIndex, ArgValue).
@@ -23,10 +23,11 @@ cpr_argument(e2, 1, 'inputs/input.txt').
 %---------------------------------------------------------------------------------------------------
 cpr_file_open(o31, r0, p2, '/mnt/cpr-demo-2021/examples/01-xsb-examples/05-cat-file-to-file', 4, true, nil).
 cpr_file_open(o32, r0, p2, '/mnt/cpr-demo-2021/examples/01-xsb-examples/05-cat-file-to-file/outputs/output.txt', 2, false, nil).
-cpr_file_open(o33, r0, p2, '/usr/lib/x86_64-linux-gnu/ld-2.31.so', 1, false, nil).
-cpr_file_open(o35, r0, p2, '/etc/ld.so.cache', 1, false, nil).
-cpr_file_open(o36, r0, p2, '/lib/x86_64-linux-gnu/libc.so.6', 1, false, nil).
-cpr_file_open(o37, r0, p2, '/mnt/cpr-demo-2021/examples/01-xsb-examples/05-cat-file-to-file/inputs/input.txt', 1, false, nil).
+cpr_file_open(o33, r0, p2, '/usr/bin/cat', 1, false, nil).
+cpr_file_open(o34, r0, p2, '/usr/lib/x86_64-linux-gnu/ld-2.31.so', 1, false, nil).
+cpr_file_open(o36, r0, p2, '/etc/ld.so.cache', 1, false, nil).
+cpr_file_open(o37, r0, p2, '/lib/x86_64-linux-gnu/libc.so.6', 1, false, nil).
+cpr_file_open(o38, r0, p2, '/mnt/cpr-demo-2021/examples/01-xsb-examples/05-cat-file-to-file/inputs/input.txt', 1, false, nil).
 
 %---------------------------------------------------------------------------------------------------
 % FACT: cpr_run(RunID, RunName).
@@ -48,11 +49,12 @@ cpr_path_role(r0, '/tmp', i7, nul).
 %---------------------------------------------------------------------------------------------------
 % FACT: cpr_accessed_path(AccessID, RunId, Path, PathIndex, PathRole).
 %---------------------------------------------------------------------------------------------------
-cpr_accessed_path(e1, r0, './run.sh', i15, sw).
-cpr_accessed_path(e2, r0, '/usr/bin/cat', i16, sw).
+cpr_accessed_path(e1, r0, './run.sh', i16, sw).
+cpr_accessed_path(e2, r0, '/bin/cat', i9, sw).
 cpr_accessed_path(o31, r0, '.', i3, sw).
 cpr_accessed_path(o32, r0, './outputs/output.txt', i8, out).
-cpr_accessed_path(o33, r0, '/usr/lib/x86_64-linux-gnu/ld-2.31.so', i9, os).
-cpr_accessed_path(o35, r0, '/etc/ld.so.cache', i12, os).
-cpr_accessed_path(o36, r0, '/lib/x86_64-linux-gnu/libc.so.6', i13, os).
-cpr_accessed_path(o37, r0, './inputs/input.txt', i14, in).
+cpr_accessed_path(o33, r0, '/usr/bin/cat', i9, sw).
+cpr_accessed_path(o34, r0, '/usr/lib/x86_64-linux-gnu/ld-2.31.so', i11, os).
+cpr_accessed_path(o36, r0, '/etc/ld.so.cache', i13, os).
+cpr_accessed_path(o37, r0, '/lib/x86_64-linux-gnu/libc.so.6', i14, os).
+cpr_accessed_path(o38, r0, './inputs/input.txt', i15, in).

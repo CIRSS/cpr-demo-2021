@@ -1,5 +1,5 @@
 Files opened for writing during the run and their roles:
 
-writer        | file               | role
-=========================================
-/usr/bin/date | ./outputs/date.txt | out
+writer    | file               | role
+=====================================
+/bin/date | ./outputs/date.txt | out

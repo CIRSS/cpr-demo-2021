@@ -3,7 +3,7 @@
 %---------------------------------------------------------------------------------------------------
 % FACT: cpr_process(ProcessID, ParentID, ExecID, ExecPath).
 %...................................................................................................
-cpr_process(p2,p1,e3,'/usr/bin/python3').
+cpr_process(p2,p1,e3,'/bin/python3').
 cpr_process(p2,p1,e2,'./hello.py').
 cpr_process(p1,nil,e1,'./run.sh').
 

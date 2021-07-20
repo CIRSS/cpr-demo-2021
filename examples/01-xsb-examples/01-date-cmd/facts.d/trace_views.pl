@@ -3,17 +3,18 @@
 %---------------------------------------------------------------------------------------------------
 % FACT: cpr_process(ProcessID, ParentID, ExecID, ExecPath).
 %...................................................................................................
-cpr_process(p2,p1,e2,'/usr/bin/date').
+cpr_process(p2,p1,e2,'/bin/date').
 cpr_process(p1,nil,e1,'./run.sh').
 
 
 %---------------------------------------------------------------------------------------------------
 % FACT: cpr_file_read(AccessID, RunID, ProcessID, FileIndex, FilePath, FileRole).
 %...................................................................................................
-cpr_file_read(o32,r0,p2,i6,'/usr/lib/x86_64-linux-gnu/ld-2.31.so',os).
-cpr_file_read(o34,r0,p2,i9,'/etc/ld.so.cache',os).
-cpr_file_read(o35,r0,p2,i10,'/lib/x86_64-linux-gnu/libc.so.6',os).
-cpr_file_read(o36,r0,p2,i11,'/etc/localtime',os).
+cpr_file_read(o32,r0,p2,i6,'/usr/bin/date',sw).
+cpr_file_read(o33,r0,p2,i8,'/usr/lib/x86_64-linux-gnu/ld-2.31.so',os).
+cpr_file_read(o35,r0,p2,i10,'/etc/ld.so.cache',os).
+cpr_file_read(o36,r0,p2,i11,'/lib/x86_64-linux-gnu/libc.so.6',os).
+cpr_file_read(o37,r0,p2,i12,'/etc/localtime',os).
 
 
 %---------------------------------------------------------------------------------------------------
