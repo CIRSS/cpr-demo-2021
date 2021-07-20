@@ -8,9 +8,9 @@ cpr_process(p2, p1, r0, false, 0, nil).
 %---------------------------------------------------------------------------------------------------
 % FACT: cpr_execution(ExecID, RunID, ProcessID, FilePath, WorkingDir, TimeStamp).
 %---------------------------------------------------------------------------------------------------
-cpr_execution(e1, r0, p1, '/mnt/cpr/examples/01-xsb-examples/06-hello-python/./run.sh', '/mnt/cpr/examples/01-xsb-examples/06-hello-python', nil).
-cpr_execution(e2, r0, p2, '/mnt/cpr/examples/01-xsb-examples/06-hello-python/./hello.py', '/mnt/cpr/examples/01-xsb-examples/06-hello-python', nil).
-cpr_execution(e3, r0, p2, '/usr/bin/python3', '/mnt/cpr/examples/01-xsb-examples/06-hello-python', nil).
+cpr_execution(e1, r0, p1, '/mnt/cpr-demo-2021/examples/01-xsb-examples/06-hello-python/./run.sh', '/mnt/cpr-demo-2021/examples/01-xsb-examples/06-hello-python', nil).
+cpr_execution(e2, r0, p2, '/mnt/cpr-demo-2021/examples/01-xsb-examples/06-hello-python/./hello.py', '/mnt/cpr-demo-2021/examples/01-xsb-examples/06-hello-python', nil).
+cpr_execution(e3, r0, p2, '/usr/bin/python3', '/mnt/cpr-demo-2021/examples/01-xsb-examples/06-hello-python', nil).
 
 %---------------------------------------------------------------------------------------------------
 % FACT: cpr_argument(ExecID, ArgIndex, ArgValue).
@@ -23,7 +23,7 @@ cpr_argument(e3, 1, './hello.py').
 %---------------------------------------------------------------------------------------------------
 % FACT: cpr_file_open(OpenID, RunID, ProcessID, FilePath, Mode, IsDirectory, Timestamp).
 %---------------------------------------------------------------------------------------------------
-cpr_file_open(o20, r0, p2, '/mnt/cpr/examples/01-xsb-examples/06-hello-python', 4, true, nil).
+cpr_file_open(o20, r0, p2, '/mnt/cpr-demo-2021/examples/01-xsb-examples/06-hello-python', 4, true, nil).
 cpr_file_open(o21, r0, p2, '/usr/bin/env', 1, false, nil).
 cpr_file_open(o22, r0, p2, '/usr/bin/env', 1, false, nil).
 cpr_file_open(o23, r0, p2, '/usr/lib/x86_64-linux-gnu/ld-2.31.so', 1, false, nil).
@@ -132,11 +132,11 @@ cpr_file_open(o129, r0, p2, '/usr/lib/python3.8', 8, true, nil).
 cpr_file_open(o130, r0, p2, '/usr/lib/python3.8/lib-dynload', 8, true, nil).
 cpr_file_open(o131, r0, p2, '/usr/local/lib/python3.8/dist-packages', 8, true, nil).
 cpr_file_open(o132, r0, p2, '/usr/lib/python3/dist-packages', 8, true, nil).
-cpr_file_open(o133, r0, p2, '/mnt/cpr/examples/01-xsb-examples/06-hello-python/./hello.py', 8, false, nil).
-cpr_file_open(o134, r0, p2, '/mnt/cpr/examples/01-xsb-examples/06-hello-python/./hello.py', 1, false, nil).
-cpr_file_open(o135, r0, p2, '/mnt/cpr/examples/01-xsb-examples/06-hello-python/./hello.py', 8, false, nil).
-cpr_file_open(o136, r0, p2, '/mnt/cpr/examples/01-xsb-examples/06-hello-python/hello.py', 24, false, nil).
-cpr_file_open(o137, r0, p2, '/mnt/cpr/examples/01-xsb-examples/06-hello-python/./hello.py', 1, false, nil).
+cpr_file_open(o133, r0, p2, '/mnt/cpr-demo-2021/examples/01-xsb-examples/06-hello-python/./hello.py', 8, false, nil).
+cpr_file_open(o134, r0, p2, '/mnt/cpr-demo-2021/examples/01-xsb-examples/06-hello-python/./hello.py', 1, false, nil).
+cpr_file_open(o135, r0, p2, '/mnt/cpr-demo-2021/examples/01-xsb-examples/06-hello-python/./hello.py', 8, false, nil).
+cpr_file_open(o136, r0, p2, '/mnt/cpr-demo-2021/examples/01-xsb-examples/06-hello-python/hello.py', 24, false, nil).
+cpr_file_open(o137, r0, p2, '/mnt/cpr-demo-2021/examples/01-xsb-examples/06-hello-python/./hello.py', 1, false, nil).
 
 %---------------------------------------------------------------------------------------------------
 % FACT: cpr_run(RunID, RunName).

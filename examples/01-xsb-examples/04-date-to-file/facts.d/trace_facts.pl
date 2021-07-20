@@ -10,9 +10,9 @@ cpr_process(p4, p1, r0, false, 0, nil).
 %---------------------------------------------------------------------------------------------------
 % FACT: cpr_execution(ExecID, RunID, ProcessID, FilePath, WorkingDir, TimeStamp).
 %---------------------------------------------------------------------------------------------------
-cpr_execution(e1, r0, p1, '/mnt/cpr/examples/01-xsb-examples/04-date-to-file/./run.sh', '/mnt/cpr/examples/01-xsb-examples/04-date-to-file', nil).
-cpr_execution(e2, r0, p2, '/usr/bin/date', '/mnt/cpr/examples/01-xsb-examples/04-date-to-file', nil).
-cpr_execution(e3, r0, p4, '/usr/bin/cat', '/mnt/cpr/examples/01-xsb-examples/04-date-to-file', nil).
+cpr_execution(e1, r0, p1, '/mnt/cpr-demo-2021/examples/01-xsb-examples/04-date-to-file/./run.sh', '/mnt/cpr-demo-2021/examples/01-xsb-examples/04-date-to-file', nil).
+cpr_execution(e2, r0, p2, '/usr/bin/date', '/mnt/cpr-demo-2021/examples/01-xsb-examples/04-date-to-file', nil).
+cpr_execution(e3, r0, p4, '/usr/bin/cat', '/mnt/cpr-demo-2021/examples/01-xsb-examples/04-date-to-file', nil).
 
 %---------------------------------------------------------------------------------------------------
 % FACT: cpr_argument(ExecID, ArgIndex, ArgValue).
@@ -20,23 +20,23 @@ cpr_execution(e3, r0, p4, '/usr/bin/cat', '/mnt/cpr/examples/01-xsb-examples/04-
 cpr_argument(e1, 0, './run.sh').
 cpr_argument(e2, 0, 'date').
 cpr_argument(e3, 0, 'cat').
-cpr_argument(e3, 1, '/mnt/cpr/examples/01-xsb-examples/04-date-to-file/outputs/date.txt').
+cpr_argument(e3, 1, '/mnt/cpr-demo-2021/examples/01-xsb-examples/04-date-to-file/outputs/date.txt').
 
 %---------------------------------------------------------------------------------------------------
 % FACT: cpr_file_open(OpenID, RunID, ProcessID, FilePath, Mode, IsDirectory, Timestamp).
 %---------------------------------------------------------------------------------------------------
-cpr_file_open(o31, r0, p2, '/mnt/cpr/examples/01-xsb-examples/04-date-to-file', 4, true, nil).
-cpr_file_open(o32, r0, p2, '/mnt/cpr/examples/01-xsb-examples/04-date-to-file/outputs/date.txt', 2, false, nil).
+cpr_file_open(o31, r0, p2, '/mnt/cpr-demo-2021/examples/01-xsb-examples/04-date-to-file', 4, true, nil).
+cpr_file_open(o32, r0, p2, '/mnt/cpr-demo-2021/examples/01-xsb-examples/04-date-to-file/outputs/date.txt', 2, false, nil).
 cpr_file_open(o33, r0, p2, '/usr/lib/x86_64-linux-gnu/ld-2.31.so', 1, false, nil).
 cpr_file_open(o35, r0, p2, '/etc/ld.so.cache', 1, false, nil).
 cpr_file_open(o36, r0, p2, '/lib/x86_64-linux-gnu/libc.so.6', 1, false, nil).
 cpr_file_open(o37, r0, p2, '/etc/localtime', 1, false, nil).
-cpr_file_open(o43, r0, p3, '/mnt/cpr/examples/01-xsb-examples/04-date-to-file', 4, true, nil).
-cpr_file_open(o55, r0, p4, '/mnt/cpr/examples/01-xsb-examples/04-date-to-file', 4, true, nil).
+cpr_file_open(o43, r0, p3, '/mnt/cpr-demo-2021/examples/01-xsb-examples/04-date-to-file', 4, true, nil).
+cpr_file_open(o55, r0, p4, '/mnt/cpr-demo-2021/examples/01-xsb-examples/04-date-to-file', 4, true, nil).
 cpr_file_open(o56, r0, p4, '/usr/lib/x86_64-linux-gnu/ld-2.31.so', 1, false, nil).
 cpr_file_open(o58, r0, p4, '/etc/ld.so.cache', 1, false, nil).
 cpr_file_open(o59, r0, p4, '/lib/x86_64-linux-gnu/libc.so.6', 1, false, nil).
-cpr_file_open(o60, r0, p4, '/mnt/cpr/examples/01-xsb-examples/04-date-to-file/outputs/date.txt', 1, false, nil).
+cpr_file_open(o60, r0, p4, '/mnt/cpr-demo-2021/examples/01-xsb-examples/04-date-to-file/outputs/date.txt', 1, false, nil).
 
 %---------------------------------------------------------------------------------------------------
 % FACT: cpr_run(RunID, RunName).

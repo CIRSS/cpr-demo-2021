@@ -8,8 +8,8 @@ cpr_process(p2, p1, r0, false, 0, nil).
 %---------------------------------------------------------------------------------------------------
 % FACT: cpr_execution(ExecID, RunID, ProcessID, FilePath, WorkingDir, TimeStamp).
 %---------------------------------------------------------------------------------------------------
-cpr_execution(e1, r0, p1, '/mnt/cpr/examples/01-xsb-examples/03-hello-c/./run.sh', '/mnt/cpr/examples/01-xsb-examples/03-hello-c', nil).
-cpr_execution(e2, r0, p2, '/mnt/cpr/examples/01-xsb-examples/03-hello-c/./bin/hello_c', '/mnt/cpr/examples/01-xsb-examples/03-hello-c', nil).
+cpr_execution(e1, r0, p1, '/mnt/cpr-demo-2021/examples/01-xsb-examples/03-hello-c/./run.sh', '/mnt/cpr-demo-2021/examples/01-xsb-examples/03-hello-c', nil).
+cpr_execution(e2, r0, p2, '/mnt/cpr-demo-2021/examples/01-xsb-examples/03-hello-c/./bin/hello_c', '/mnt/cpr-demo-2021/examples/01-xsb-examples/03-hello-c', nil).
 
 %---------------------------------------------------------------------------------------------------
 % FACT: cpr_argument(ExecID, ArgIndex, ArgValue).
@@ -20,8 +20,8 @@ cpr_argument(e2, 0, './bin/hello_c').
 %---------------------------------------------------------------------------------------------------
 % FACT: cpr_file_open(OpenID, RunID, ProcessID, FilePath, Mode, IsDirectory, Timestamp).
 %---------------------------------------------------------------------------------------------------
-cpr_file_open(o20, r0, p2, '/mnt/cpr/examples/01-xsb-examples/03-hello-c', 4, true, nil).
-cpr_file_open(o21, r0, p2, '/mnt/cpr/examples/01-xsb-examples/03-hello-c/bin/hello_c', 1, false, nil).
+cpr_file_open(o20, r0, p2, '/mnt/cpr-demo-2021/examples/01-xsb-examples/03-hello-c', 4, true, nil).
+cpr_file_open(o21, r0, p2, '/mnt/cpr-demo-2021/examples/01-xsb-examples/03-hello-c/bin/hello_c', 1, false, nil).
 cpr_file_open(o22, r0, p2, '/usr/lib/x86_64-linux-gnu/ld-2.31.so', 1, false, nil).
 cpr_file_open(o24, r0, p2, '/etc/ld.so.cache', 1, false, nil).
 cpr_file_open(o25, r0, p2, '/lib/x86_64-linux-gnu/libc.so.6', 1, false, nil).

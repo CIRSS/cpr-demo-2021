@@ -31,26 +31,26 @@
 <process/2> os:startTime "nil" .
 <execution/1> rdf:type os:Execution .
 <execution/1> os:startedProcess <process/1> .
-<execution/1> os:executedFile "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/run.sh" .
+<execution/1> os:executedFile "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/run.sh" .
 <execution/1> os:resourcePath <fileresource/67> .
-<execution/1> os:hadWorkingDirectory "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace" .
+<execution/1> os:hadWorkingDirectory "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace" .
 <execution/1> os:atTime "nil" .
 <execution/2> rdf:type os:Execution .
 <execution/2> os:startedProcess <process/2> .
-<execution/2> os:executedFile "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
+<execution/2> os:executedFile "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
 <execution/2> os:resourcePath <fileresource/66> .
-<execution/2> os:hadWorkingDirectory "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace" .
+<execution/2> os:hadWorkingDirectory "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace" .
 <execution/2> os:atTime "nil" .
 <execution/3> rdf:type os:Execution .
 <execution/3> os:startedProcess <process/2> .
 <execution/3> os:executedFile "/usr/bin/python3" .
 <execution/3> os:resourcePath <fileresource/15> .
-<execution/3> os:hadWorkingDirectory "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace" .
+<execution/3> os:hadWorkingDirectory "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace" .
 <execution/3> os:atTime "nil" .
 <execution/1> os:Argument <execution/1/argument/0> .
 <execution/1/argument/0> rdf:type os:ExecutionArgument .
 <execution/1/argument/0> cpr:hadIndex 0 .
-<execution/1/argument/0> cpr:hadValue "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/run.sh" .
+<execution/1/argument/0> cpr:hadValue "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/run.sh" .
 <execution/2> os:Argument <execution/2/argument/0> .
 <execution/2/argument/0> rdf:type os:ExecutionArgument .
 <execution/2/argument/0> cpr:hadIndex 0 .
@@ -65,7 +65,7 @@
 <execution/3/argument/1> cpr:hadValue "./hello.py" .
 <process/2> os:performedAccess <process/2/access/26> .
 <process/2/access/26> rdf:type os:DirectoryAccess .
-<process/2/access/26> os:accessPath "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace" .
+<process/2/access/26> os:accessPath "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace" .
 <process/2/access/26> os:accessMode cpr:Search .
 <process/2/access/26> os:accessStartTime "nil" .
 <process/2/access/26> os:resourceRole "sw" .
@@ -714,46 +714,46 @@
 <process/2> os:performedAccess <process/2/access/139> .
 <process/2/access/139> rdf:type os:FileAccess .
 <process/2/access/139> os:resourcePath <fileresource/66> .
-<process/2/access/139> os:accessPath "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
+<process/2/access/139> os:accessPath "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
 <process/2/access/139> os:accessStartTime "nil" .
 <process/2/access/139> os:resourceRole "sw" .
 <process/2> os:performedAccess <process/2/access/140> .
 <process/2/access/140> rdf:type os:FileAccess .
 <process/2/access/140> os:resourcePath <fileresource/66> .
-<process/2/access/140> os:accessPath "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
+<process/2/access/140> os:accessPath "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
 <process/2/access/140> os:accessMode cpr:Read .
 <process/2/access/140> os:accessStartTime "nil" .
 <process/2/access/140> os:resourceRole "sw" .
 <process/2> os:performedAccess <process/2/access/141> .
 <process/2/access/141> rdf:type os:FileAccess .
 <process/2/access/141> os:resourcePath <fileresource/66> .
-<process/2/access/141> os:accessPath "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
+<process/2/access/141> os:accessPath "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
 <process/2/access/141> os:accessStartTime "nil" .
 <process/2/access/141> os:resourceRole "sw" .
 <process/2> os:performedAccess <process/2/access/142> .
 <process/2/access/142> rdf:type os:FileAccess .
 <process/2/access/142> os:resourcePath <fileresource/66> .
-<process/2/access/142> os:accessPath "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/hello.py" .
+<process/2/access/142> os:accessPath "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/hello.py" .
 <process/2/access/142> os:accessStartTime "nil" .
 <process/2/access/142> os:resourceRole "sw" .
 <process/2> os:performedAccess <process/2/access/143> .
 <process/2/access/143> rdf:type os:FileAccess .
 <process/2/access/143> os:resourcePath <fileresource/66> .
-<process/2/access/143> os:accessPath "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
+<process/2/access/143> os:accessPath "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
 <process/2/access/143> os:accessMode cpr:Read .
 <process/2/access/143> os:accessStartTime "nil" .
 <process/2/access/143> os:resourceRole "sw" .
 <fileresource/67> rdf:type os:FileResource .
-<fileresource/67> os:absolutePath "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/run.sh" .
+<fileresource/67> os:absolutePath "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/run.sh" .
 <fileresource/67> os:relativePath "./run.sh" .
 <fileresource/66> rdf:type os:FileResource .
-<fileresource/66> os:absolutePath "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
+<fileresource/66> os:absolutePath "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
 <fileresource/66> os:relativePath "./hello.py" .
 <fileresource/15> rdf:type os:FileResource .
 <fileresource/15> os:absolutePath "/usr/bin/python3" .
 <fileresource/15> os:relativePath "/usr/bin/python3" .
 <fileresource/8> rdf:type os:FileResource .
-<fileresource/8> os:absolutePath "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace" .
+<fileresource/8> os:absolutePath "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace" .
 <fileresource/8> os:relativePath "." .
 <fileresource/9> rdf:type os:FileResource .
 <fileresource/9> os:absolutePath "/usr/bin/env" .
@@ -1080,19 +1080,19 @@
 <fileresource/62> os:absolutePath "/usr/lib/python3/dist-packages" .
 <fileresource/62> os:relativePath "/usr/lib/python3/dist-packages" .
 <fileresource/66> rdf:type os:FileResource .
-<fileresource/66> os:absolutePath "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
+<fileresource/66> os:absolutePath "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
 <fileresource/66> os:relativePath "./hello.py" .
 <fileresource/66> rdf:type os:FileResource .
-<fileresource/66> os:absolutePath "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
+<fileresource/66> os:absolutePath "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
 <fileresource/66> os:relativePath "./hello.py" .
 <fileresource/66> rdf:type os:FileResource .
-<fileresource/66> os:absolutePath "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
+<fileresource/66> os:absolutePath "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
 <fileresource/66> os:relativePath "./hello.py" .
 <fileresource/66> rdf:type os:FileResource .
-<fileresource/66> os:absolutePath "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/hello.py" .
+<fileresource/66> os:absolutePath "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/hello.py" .
 <fileresource/66> os:relativePath "./hello.py" .
 <fileresource/66> rdf:type os:FileResource .
-<fileresource/66> os:absolutePath "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
+<fileresource/66> os:absolutePath "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
 <fileresource/66> os:relativePath "./hello.py" .
 <role/0> rdf:type cpr:ResourceRole .
 <role/0> cpr:resourcePath "/etc" .
@@ -1146,12 +1146,12 @@ Successfully created dataset traces
 <http://cirss.illinois.edu/runs/0/> <http://cirss.illinois.edu/ns/cpr#RunName> "06-hello-python" .
 <http://cirss.illinois.edu/runs/0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cirss.illinois.edu/ns/cpr#Run> .
 <http://cirss.illinois.edu/runs/0/execution/1/argument/0> <http://cirss.illinois.edu/ns/cpr#hadIndex> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://cirss.illinois.edu/runs/0/execution/1/argument/0> <http://cirss.illinois.edu/ns/cpr#hadValue> "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/run.sh" .
+<http://cirss.illinois.edu/runs/0/execution/1/argument/0> <http://cirss.illinois.edu/ns/cpr#hadValue> "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/run.sh" .
 <http://cirss.illinois.edu/runs/0/execution/1/argument/0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cirss.illinois.edu/ns/cpr/os#ExecutionArgument> .
 <http://cirss.illinois.edu/runs/0/execution/1> <http://cirss.illinois.edu/ns/cpr/os#Argument> <http://cirss.illinois.edu/runs/0/execution/1/argument/0> .
 <http://cirss.illinois.edu/runs/0/execution/1> <http://cirss.illinois.edu/ns/cpr/os#atTime> "nil" .
-<http://cirss.illinois.edu/runs/0/execution/1> <http://cirss.illinois.edu/ns/cpr/os#executedFile> "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/run.sh" .
-<http://cirss.illinois.edu/runs/0/execution/1> <http://cirss.illinois.edu/ns/cpr/os#hadWorkingDirectory> "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace" .
+<http://cirss.illinois.edu/runs/0/execution/1> <http://cirss.illinois.edu/ns/cpr/os#executedFile> "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/run.sh" .
+<http://cirss.illinois.edu/runs/0/execution/1> <http://cirss.illinois.edu/ns/cpr/os#hadWorkingDirectory> "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace" .
 <http://cirss.illinois.edu/runs/0/execution/1> <http://cirss.illinois.edu/ns/cpr/os#resourcePath> <http://cirss.illinois.edu/runs/0/fileresource/67> .
 <http://cirss.illinois.edu/runs/0/execution/1> <http://cirss.illinois.edu/ns/cpr/os#startedProcess> <http://cirss.illinois.edu/runs/0/process/1> .
 <http://cirss.illinois.edu/runs/0/execution/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cirss.illinois.edu/ns/cpr/os#Execution> .
@@ -1160,8 +1160,8 @@ Successfully created dataset traces
 <http://cirss.illinois.edu/runs/0/execution/2/argument/0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cirss.illinois.edu/ns/cpr/os#ExecutionArgument> .
 <http://cirss.illinois.edu/runs/0/execution/2> <http://cirss.illinois.edu/ns/cpr/os#Argument> <http://cirss.illinois.edu/runs/0/execution/2/argument/0> .
 <http://cirss.illinois.edu/runs/0/execution/2> <http://cirss.illinois.edu/ns/cpr/os#atTime> "nil" .
-<http://cirss.illinois.edu/runs/0/execution/2> <http://cirss.illinois.edu/ns/cpr/os#executedFile> "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
-<http://cirss.illinois.edu/runs/0/execution/2> <http://cirss.illinois.edu/ns/cpr/os#hadWorkingDirectory> "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace" .
+<http://cirss.illinois.edu/runs/0/execution/2> <http://cirss.illinois.edu/ns/cpr/os#executedFile> "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
+<http://cirss.illinois.edu/runs/0/execution/2> <http://cirss.illinois.edu/ns/cpr/os#hadWorkingDirectory> "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace" .
 <http://cirss.illinois.edu/runs/0/execution/2> <http://cirss.illinois.edu/ns/cpr/os#resourcePath> <http://cirss.illinois.edu/runs/0/fileresource/66> .
 <http://cirss.illinois.edu/runs/0/execution/2> <http://cirss.illinois.edu/ns/cpr/os#startedProcess> <http://cirss.illinois.edu/runs/0/process/2> .
 <http://cirss.illinois.edu/runs/0/execution/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cirss.illinois.edu/ns/cpr/os#Execution> .
@@ -1175,7 +1175,7 @@ Successfully created dataset traces
 <http://cirss.illinois.edu/runs/0/execution/3> <http://cirss.illinois.edu/ns/cpr/os#Argument> <http://cirss.illinois.edu/runs/0/execution/3/argument/1> .
 <http://cirss.illinois.edu/runs/0/execution/3> <http://cirss.illinois.edu/ns/cpr/os#atTime> "nil" .
 <http://cirss.illinois.edu/runs/0/execution/3> <http://cirss.illinois.edu/ns/cpr/os#executedFile> "/usr/bin/python3" .
-<http://cirss.illinois.edu/runs/0/execution/3> <http://cirss.illinois.edu/ns/cpr/os#hadWorkingDirectory> "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace" .
+<http://cirss.illinois.edu/runs/0/execution/3> <http://cirss.illinois.edu/ns/cpr/os#hadWorkingDirectory> "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace" .
 <http://cirss.illinois.edu/runs/0/execution/3> <http://cirss.illinois.edu/ns/cpr/os#resourcePath> <http://cirss.illinois.edu/runs/0/fileresource/15> .
 <http://cirss.illinois.edu/runs/0/execution/3> <http://cirss.illinois.edu/ns/cpr/os#startedProcess> <http://cirss.illinois.edu/runs/0/process/2> .
 <http://cirss.illinois.edu/runs/0/execution/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cirss.illinois.edu/ns/cpr/os#Execution> .
@@ -1322,14 +1322,14 @@ Successfully created dataset traces
 <http://cirss.illinois.edu/runs/0/fileresource/65> <http://cirss.illinois.edu/ns/cpr/os#absolutePath> "/usr/lib/python3.8/__pycache__/sitecustomize.cpython-38.pyc" .
 <http://cirss.illinois.edu/runs/0/fileresource/65> <http://cirss.illinois.edu/ns/cpr/os#relativePath> "/usr/lib/python3.8/__pycache__/sitecustomize.cpython-38.pyc" .
 <http://cirss.illinois.edu/runs/0/fileresource/65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cirss.illinois.edu/ns/cpr/os#FileResource> .
-<http://cirss.illinois.edu/runs/0/fileresource/66> <http://cirss.illinois.edu/ns/cpr/os#absolutePath> "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
-<http://cirss.illinois.edu/runs/0/fileresource/66> <http://cirss.illinois.edu/ns/cpr/os#absolutePath> "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/hello.py" .
+<http://cirss.illinois.edu/runs/0/fileresource/66> <http://cirss.illinois.edu/ns/cpr/os#absolutePath> "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
+<http://cirss.illinois.edu/runs/0/fileresource/66> <http://cirss.illinois.edu/ns/cpr/os#absolutePath> "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/hello.py" .
 <http://cirss.illinois.edu/runs/0/fileresource/66> <http://cirss.illinois.edu/ns/cpr/os#relativePath> "./hello.py" .
 <http://cirss.illinois.edu/runs/0/fileresource/66> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cirss.illinois.edu/ns/cpr/os#FileResource> .
-<http://cirss.illinois.edu/runs/0/fileresource/67> <http://cirss.illinois.edu/ns/cpr/os#absolutePath> "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/run.sh" .
+<http://cirss.illinois.edu/runs/0/fileresource/67> <http://cirss.illinois.edu/ns/cpr/os#absolutePath> "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/run.sh" .
 <http://cirss.illinois.edu/runs/0/fileresource/67> <http://cirss.illinois.edu/ns/cpr/os#relativePath> "./run.sh" .
 <http://cirss.illinois.edu/runs/0/fileresource/67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cirss.illinois.edu/ns/cpr/os#FileResource> .
-<http://cirss.illinois.edu/runs/0/fileresource/8> <http://cirss.illinois.edu/ns/cpr/os#absolutePath> "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace" .
+<http://cirss.illinois.edu/runs/0/fileresource/8> <http://cirss.illinois.edu/ns/cpr/os#absolutePath> "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace" .
 <http://cirss.illinois.edu/runs/0/fileresource/8> <http://cirss.illinois.edu/ns/cpr/os#relativePath> "." .
 <http://cirss.illinois.edu/runs/0/fileresource/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cirss.illinois.edu/ns/cpr/os#FileResource> .
 <http://cirss.illinois.edu/runs/0/fileresource/9> <http://cirss.illinois.edu/ns/cpr/os#absolutePath> "/usr/bin/env" .
@@ -1518,35 +1518,35 @@ Successfully created dataset traces
 <http://cirss.illinois.edu/runs/0/process/2/access/138> <http://cirss.illinois.edu/ns/cpr/os#accessStartTime> "nil" .
 <http://cirss.illinois.edu/runs/0/process/2/access/138> <http://cirss.illinois.edu/ns/cpr/os#resourceRole> "os" .
 <http://cirss.illinois.edu/runs/0/process/2/access/138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cirss.illinois.edu/ns/cpr/os#DirectoryAccess> .
-<http://cirss.illinois.edu/runs/0/process/2/access/139> <http://cirss.illinois.edu/ns/cpr/os#accessPath> "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
+<http://cirss.illinois.edu/runs/0/process/2/access/139> <http://cirss.illinois.edu/ns/cpr/os#accessPath> "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
 <http://cirss.illinois.edu/runs/0/process/2/access/139> <http://cirss.illinois.edu/ns/cpr/os#accessStartTime> "nil" .
 <http://cirss.illinois.edu/runs/0/process/2/access/139> <http://cirss.illinois.edu/ns/cpr/os#resourcePath> <http://cirss.illinois.edu/runs/0/fileresource/66> .
 <http://cirss.illinois.edu/runs/0/process/2/access/139> <http://cirss.illinois.edu/ns/cpr/os#resourceRole> "sw" .
 <http://cirss.illinois.edu/runs/0/process/2/access/139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cirss.illinois.edu/ns/cpr/os#FileAccess> .
 <http://cirss.illinois.edu/runs/0/process/2/access/140> <http://cirss.illinois.edu/ns/cpr/os#accessMode> <http://cirss.illinois.edu/ns/cpr#Read> .
-<http://cirss.illinois.edu/runs/0/process/2/access/140> <http://cirss.illinois.edu/ns/cpr/os#accessPath> "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
+<http://cirss.illinois.edu/runs/0/process/2/access/140> <http://cirss.illinois.edu/ns/cpr/os#accessPath> "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
 <http://cirss.illinois.edu/runs/0/process/2/access/140> <http://cirss.illinois.edu/ns/cpr/os#accessStartTime> "nil" .
 <http://cirss.illinois.edu/runs/0/process/2/access/140> <http://cirss.illinois.edu/ns/cpr/os#resourcePath> <http://cirss.illinois.edu/runs/0/fileresource/66> .
 <http://cirss.illinois.edu/runs/0/process/2/access/140> <http://cirss.illinois.edu/ns/cpr/os#resourceRole> "sw" .
 <http://cirss.illinois.edu/runs/0/process/2/access/140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cirss.illinois.edu/ns/cpr/os#FileAccess> .
-<http://cirss.illinois.edu/runs/0/process/2/access/141> <http://cirss.illinois.edu/ns/cpr/os#accessPath> "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
+<http://cirss.illinois.edu/runs/0/process/2/access/141> <http://cirss.illinois.edu/ns/cpr/os#accessPath> "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
 <http://cirss.illinois.edu/runs/0/process/2/access/141> <http://cirss.illinois.edu/ns/cpr/os#accessStartTime> "nil" .
 <http://cirss.illinois.edu/runs/0/process/2/access/141> <http://cirss.illinois.edu/ns/cpr/os#resourcePath> <http://cirss.illinois.edu/runs/0/fileresource/66> .
 <http://cirss.illinois.edu/runs/0/process/2/access/141> <http://cirss.illinois.edu/ns/cpr/os#resourceRole> "sw" .
 <http://cirss.illinois.edu/runs/0/process/2/access/141> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cirss.illinois.edu/ns/cpr/os#FileAccess> .
-<http://cirss.illinois.edu/runs/0/process/2/access/142> <http://cirss.illinois.edu/ns/cpr/os#accessPath> "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/hello.py" .
+<http://cirss.illinois.edu/runs/0/process/2/access/142> <http://cirss.illinois.edu/ns/cpr/os#accessPath> "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/hello.py" .
 <http://cirss.illinois.edu/runs/0/process/2/access/142> <http://cirss.illinois.edu/ns/cpr/os#accessStartTime> "nil" .
 <http://cirss.illinois.edu/runs/0/process/2/access/142> <http://cirss.illinois.edu/ns/cpr/os#resourcePath> <http://cirss.illinois.edu/runs/0/fileresource/66> .
 <http://cirss.illinois.edu/runs/0/process/2/access/142> <http://cirss.illinois.edu/ns/cpr/os#resourceRole> "sw" .
 <http://cirss.illinois.edu/runs/0/process/2/access/142> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cirss.illinois.edu/ns/cpr/os#FileAccess> .
 <http://cirss.illinois.edu/runs/0/process/2/access/143> <http://cirss.illinois.edu/ns/cpr/os#accessMode> <http://cirss.illinois.edu/ns/cpr#Read> .
-<http://cirss.illinois.edu/runs/0/process/2/access/143> <http://cirss.illinois.edu/ns/cpr/os#accessPath> "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
+<http://cirss.illinois.edu/runs/0/process/2/access/143> <http://cirss.illinois.edu/ns/cpr/os#accessPath> "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py" .
 <http://cirss.illinois.edu/runs/0/process/2/access/143> <http://cirss.illinois.edu/ns/cpr/os#accessStartTime> "nil" .
 <http://cirss.illinois.edu/runs/0/process/2/access/143> <http://cirss.illinois.edu/ns/cpr/os#resourcePath> <http://cirss.illinois.edu/runs/0/fileresource/66> .
 <http://cirss.illinois.edu/runs/0/process/2/access/143> <http://cirss.illinois.edu/ns/cpr/os#resourceRole> "sw" .
 <http://cirss.illinois.edu/runs/0/process/2/access/143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cirss.illinois.edu/ns/cpr/os#FileAccess> .
 <http://cirss.illinois.edu/runs/0/process/2/access/26> <http://cirss.illinois.edu/ns/cpr/os#accessMode> <http://cirss.illinois.edu/ns/cpr#Search> .
-<http://cirss.illinois.edu/runs/0/process/2/access/26> <http://cirss.illinois.edu/ns/cpr/os#accessPath> "/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace" .
+<http://cirss.illinois.edu/runs/0/process/2/access/26> <http://cirss.illinois.edu/ns/cpr/os#accessPath> "/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace" .
 <http://cirss.illinois.edu/runs/0/process/2/access/26> <http://cirss.illinois.edu/ns/cpr/os#accessStartTime> "nil" .
 <http://cirss.illinois.edu/runs/0/process/2/access/26> <http://cirss.illinois.edu/ns/cpr/os#resourceRole> "sw" .
 <http://cirss.illinois.edu/runs/0/process/2/access/26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://cirss.illinois.edu/ns/cpr/os#DirectoryAccess> .
@@ -2106,66 +2106,66 @@ __END_QUERY__
 
 Files opened for reading during the run and their roles:
 
-reader                                                                        | file                                                             | role
-======================================================================================================================================================
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | ./hello.py                                                       | sw
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /etc/ld.so.cache                                                 | os
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /etc/localtime                                                   | os
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /lib/x86_64-linux-gnu/libc.so.6                                  | os
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /lib/x86_64-linux-gnu/libdl.so.2                                 | os
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /lib/x86_64-linux-gnu/libm.so.6                                  | os
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /lib/x86_64-linux-gnu/libpthread.so.0                            | os
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /lib/x86_64-linux-gnu/libutil.so.1                               | os
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/bin/env                                                     | sw
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/bin/python3                                                 | sw
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/bin/python3.8                                               | sw
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/locale/C.UTF-8/LC_CTYPE                                 | os
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/__pycache__/_collections_abc.cpython-38.pyc   | sw
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/__pycache__/_sitebuiltins.cpython-38.pyc      | sw
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/__pycache__/abc.cpython-38.pyc                | sw
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/__pycache__/codecs.cpython-38.pyc             | sw
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/__pycache__/genericpath.cpython-38.pyc        | sw
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/__pycache__/io.cpython-38.pyc                 | sw
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/__pycache__/os.cpython-38.pyc                 | sw
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/__pycache__/posixpath.cpython-38.pyc          | sw
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/__pycache__/site.cpython-38.pyc               | sw
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/__pycache__/sitecustomize.cpython-38.pyc      | sw
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/__pycache__/stat.cpython-38.pyc               | sw
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/encodings/__pycache__/__init__.cpython-38.pyc | sw
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/encodings/__pycache__/aliases.cpython-38.pyc  | sw
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/encodings/__pycache__/latin_1.cpython-38.pyc  | sw
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/encodings/__pycache__/utf_8.cpython-38.pyc    | sw
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache              | os
-/mnt/cpr/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/x86_64-linux-gnu/ld-2.31.so                             | os
-/usr/bin/python3                                                              | ./hello.py                                                       | sw
-/usr/bin/python3                                                              | /etc/ld.so.cache                                                 | os
-/usr/bin/python3                                                              | /etc/localtime                                                   | os
-/usr/bin/python3                                                              | /lib/x86_64-linux-gnu/libc.so.6                                  | os
-/usr/bin/python3                                                              | /lib/x86_64-linux-gnu/libdl.so.2                                 | os
-/usr/bin/python3                                                              | /lib/x86_64-linux-gnu/libm.so.6                                  | os
-/usr/bin/python3                                                              | /lib/x86_64-linux-gnu/libpthread.so.0                            | os
-/usr/bin/python3                                                              | /lib/x86_64-linux-gnu/libutil.so.1                               | os
-/usr/bin/python3                                                              | /usr/bin/env                                                     | sw
-/usr/bin/python3                                                              | /usr/bin/python3                                                 | sw
-/usr/bin/python3                                                              | /usr/bin/python3.8                                               | sw
-/usr/bin/python3                                                              | /usr/lib/locale/C.UTF-8/LC_CTYPE                                 | os
-/usr/bin/python3                                                              | /usr/lib/python3.8/__pycache__/_collections_abc.cpython-38.pyc   | sw
-/usr/bin/python3                                                              | /usr/lib/python3.8/__pycache__/_sitebuiltins.cpython-38.pyc      | sw
-/usr/bin/python3                                                              | /usr/lib/python3.8/__pycache__/abc.cpython-38.pyc                | sw
-/usr/bin/python3                                                              | /usr/lib/python3.8/__pycache__/codecs.cpython-38.pyc             | sw
-/usr/bin/python3                                                              | /usr/lib/python3.8/__pycache__/genericpath.cpython-38.pyc        | sw
-/usr/bin/python3                                                              | /usr/lib/python3.8/__pycache__/io.cpython-38.pyc                 | sw
-/usr/bin/python3                                                              | /usr/lib/python3.8/__pycache__/os.cpython-38.pyc                 | sw
-/usr/bin/python3                                                              | /usr/lib/python3.8/__pycache__/posixpath.cpython-38.pyc          | sw
-/usr/bin/python3                                                              | /usr/lib/python3.8/__pycache__/site.cpython-38.pyc               | sw
-/usr/bin/python3                                                              | /usr/lib/python3.8/__pycache__/sitecustomize.cpython-38.pyc      | sw
-/usr/bin/python3                                                              | /usr/lib/python3.8/__pycache__/stat.cpython-38.pyc               | sw
-/usr/bin/python3                                                              | /usr/lib/python3.8/encodings/__pycache__/__init__.cpython-38.pyc | sw
-/usr/bin/python3                                                              | /usr/lib/python3.8/encodings/__pycache__/aliases.cpython-38.pyc  | sw
-/usr/bin/python3                                                              | /usr/lib/python3.8/encodings/__pycache__/latin_1.cpython-38.pyc  | sw
-/usr/bin/python3                                                              | /usr/lib/python3.8/encodings/__pycache__/utf_8.cpython-38.pyc    | sw
-/usr/bin/python3                                                              | /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache              | os
-/usr/bin/python3                                                              | /usr/lib/x86_64-linux-gnu/ld-2.31.so                             | os
+reader                                                                                  | file                                                             | role
+================================================================================================================================================================
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | ./hello.py                                                       | sw
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /etc/ld.so.cache                                                 | os
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /etc/localtime                                                   | os
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /lib/x86_64-linux-gnu/libc.so.6                                  | os
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /lib/x86_64-linux-gnu/libdl.so.2                                 | os
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /lib/x86_64-linux-gnu/libm.so.6                                  | os
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /lib/x86_64-linux-gnu/libpthread.so.0                            | os
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /lib/x86_64-linux-gnu/libutil.so.1                               | os
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/bin/env                                                     | sw
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/bin/python3                                                 | sw
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/bin/python3.8                                               | sw
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/locale/C.UTF-8/LC_CTYPE                                 | os
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/__pycache__/_collections_abc.cpython-38.pyc   | sw
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/__pycache__/_sitebuiltins.cpython-38.pyc      | sw
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/__pycache__/abc.cpython-38.pyc                | sw
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/__pycache__/codecs.cpython-38.pyc             | sw
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/__pycache__/genericpath.cpython-38.pyc        | sw
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/__pycache__/io.cpython-38.pyc                 | sw
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/__pycache__/os.cpython-38.pyc                 | sw
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/__pycache__/posixpath.cpython-38.pyc          | sw
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/__pycache__/site.cpython-38.pyc               | sw
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/__pycache__/sitecustomize.cpython-38.pyc      | sw
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/__pycache__/stat.cpython-38.pyc               | sw
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/encodings/__pycache__/__init__.cpython-38.pyc | sw
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/encodings/__pycache__/aliases.cpython-38.pyc  | sw
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/encodings/__pycache__/latin_1.cpython-38.pyc  | sw
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/python3.8/encodings/__pycache__/utf_8.cpython-38.pyc    | sw
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache              | os
+/mnt/cpr-demo-2021/examples/02-blazegraph-examples/06-hello-python/workspace/./hello.py | /usr/lib/x86_64-linux-gnu/ld-2.31.so                             | os
+/usr/bin/python3                                                                        | ./hello.py                                                       | sw
+/usr/bin/python3                                                                        | /etc/ld.so.cache                                                 | os
+/usr/bin/python3                                                                        | /etc/localtime                                                   | os
+/usr/bin/python3                                                                        | /lib/x86_64-linux-gnu/libc.so.6                                  | os
+/usr/bin/python3                                                                        | /lib/x86_64-linux-gnu/libdl.so.2                                 | os
+/usr/bin/python3                                                                        | /lib/x86_64-linux-gnu/libm.so.6                                  | os
+/usr/bin/python3                                                                        | /lib/x86_64-linux-gnu/libpthread.so.0                            | os
+/usr/bin/python3                                                                        | /lib/x86_64-linux-gnu/libutil.so.1                               | os
+/usr/bin/python3                                                                        | /usr/bin/env                                                     | sw
+/usr/bin/python3                                                                        | /usr/bin/python3                                                 | sw
+/usr/bin/python3                                                                        | /usr/bin/python3.8                                               | sw
+/usr/bin/python3                                                                        | /usr/lib/locale/C.UTF-8/LC_CTYPE                                 | os
+/usr/bin/python3                                                                        | /usr/lib/python3.8/__pycache__/_collections_abc.cpython-38.pyc   | sw
+/usr/bin/python3                                                                        | /usr/lib/python3.8/__pycache__/_sitebuiltins.cpython-38.pyc      | sw
+/usr/bin/python3                                                                        | /usr/lib/python3.8/__pycache__/abc.cpython-38.pyc                | sw
+/usr/bin/python3                                                                        | /usr/lib/python3.8/__pycache__/codecs.cpython-38.pyc             | sw
+/usr/bin/python3                                                                        | /usr/lib/python3.8/__pycache__/genericpath.cpython-38.pyc        | sw
+/usr/bin/python3                                                                        | /usr/lib/python3.8/__pycache__/io.cpython-38.pyc                 | sw
+/usr/bin/python3                                                                        | /usr/lib/python3.8/__pycache__/os.cpython-38.pyc                 | sw
+/usr/bin/python3                                                                        | /usr/lib/python3.8/__pycache__/posixpath.cpython-38.pyc          | sw
+/usr/bin/python3                                                                        | /usr/lib/python3.8/__pycache__/site.cpython-38.pyc               | sw
+/usr/bin/python3                                                                        | /usr/lib/python3.8/__pycache__/sitecustomize.cpython-38.pyc      | sw
+/usr/bin/python3                                                                        | /usr/lib/python3.8/__pycache__/stat.cpython-38.pyc               | sw
+/usr/bin/python3                                                                        | /usr/lib/python3.8/encodings/__pycache__/__init__.cpython-38.pyc | sw
+/usr/bin/python3                                                                        | /usr/lib/python3.8/encodings/__pycache__/aliases.cpython-38.pyc  | sw
+/usr/bin/python3                                                                        | /usr/lib/python3.8/encodings/__pycache__/latin_1.cpython-38.pyc  | sw
+/usr/bin/python3                                                                        | /usr/lib/python3.8/encodings/__pycache__/utf_8.cpython-38.pyc    | sw
+/usr/bin/python3                                                                        | /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache              | os
+/usr/bin/python3                                                                        | /usr/lib/x86_64-linux-gnu/ld-2.31.so                             | os
 
 
 ******************************************* query-3-select-files-written ************************************************
