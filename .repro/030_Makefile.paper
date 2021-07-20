@@ -1,6 +1,5 @@
 ## 
 ## # Targets for creating the reports in this REPRO.
-##
 
 build-paper:            ## Build the paper from sources.
 	$(RUN_IN_REPRO) 'make -C ${REPRO_PAPER_DIR} paper'

@@ -1,16 +1,14 @@
 ## 
 ## # Aliases for targets in this Makefile.
-##
 
 # Define target aliases available both inside and outside a running REPRO
-examples: run-examples  ## 
-paper:    build-paper   ## 
-watch:    watch-paper   ## 
+examples:               run-examples    ## 
+#paper:    build-paper   ##
+#watch:    watch-paper   ##
 
 # Define target aliases available only outside a running REPRO
 ifndef IN_RUNNING_REPRO
-## 
-image:    build-image   ## 
-start:    start-image   ## 
+image:                  build-image     ## 
+start:                  start-image     ## 
 endif
 

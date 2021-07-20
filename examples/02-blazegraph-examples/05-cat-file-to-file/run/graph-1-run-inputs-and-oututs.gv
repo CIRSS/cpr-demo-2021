@@ -1,0 +1,35 @@
+
+
+
+digraph cpr_run {
+rankdir=LR
+fontname=Courier; fontsize=18; labelloc=t
+label="Run Inputs and Outputs"
+
+node[shape=box style="filled" fillcolor="#FFFFFF" peripheries=2 fontname=Courier]
+"http://cirss.illinois.edu/runs/0/" [label="05-cat-file-to-file"]
+
+node[shape=box style="rounded,filled" fillcolor="#FFFFCC" peripheries=1 fontname=Helvetica]
+
+# input file nodes
+subgraph cluster_input_files { label=""; color=white; penwidth=0
+subgraph cluster_input_files_inner { label=""; color=white
+"http://cirss.illinois.edu/runs/0/fileresource/16" [label="./inputs/input.txt"]
+}}
+
+# output file nodes
+subgraph cluster_output_files { label=""; color=white; penwidth=0
+subgraph cluster_output_files_inner { label=""; color=white
+"http://cirss.illinois.edu/runs/0/fileresource/10" [label="./outputs/output.txt"]
+}}
+
+# input file edges
+"http://cirss.illinois.edu/runs/0/fileresource/16" -> "http://cirss.illinois.edu/runs/0/"
+
+# output file edges
+"http://cirss.illinois.edu/runs/0/" -> "http://cirss.illinois.edu/runs/0/fileresource/10"
+
+}
+
+
+

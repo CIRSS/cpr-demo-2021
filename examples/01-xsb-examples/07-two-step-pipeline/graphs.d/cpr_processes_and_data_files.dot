@@ -1,0 +1,21 @@
+
+digraph cpr_run {
+rankdir=LR
+fontname=Courier; fontsize=18; labelloc=t
+label="Processes and Data Files"
+subgraph cluster_inputs { label=""; color=white; penwidth=0
+subgraph cluster_inputs_inner { label=""; color=white
+node[shape=box style="filled" fillcolor="#CCFFCC" peripheries=1 fontname=Courier]
+"exe:e3" [label="/usr/bin/cat"]
+"exe:e2" [label="/usr/bin/cat"]
+node[shape=box style="rounded,filled" fillcolor="#FFFFCC" peripheries=1 fontname=Helvetica]
+"access:i16" [label="./outputs/file3.txt"]
+"access:i15" [label="./inputs/file1.txt"]
+"access:i9" [label="./temp/file2.txt"]
+"exe:e3" -> "access:i16"
+"exe:e2" -> "access:i9"
+"access:i9" -> "exe:e3"
+"access:i15" -> "exe:e2"
+}}
+}
+

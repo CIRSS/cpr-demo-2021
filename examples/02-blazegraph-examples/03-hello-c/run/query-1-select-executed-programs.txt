@@ -1,0 +1,6 @@
+Programs executed during the run:
+
+program
+============
+./bin/hello_c
+./run.sh

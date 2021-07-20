@@ -1,0 +1,10 @@
+Files opened for writing during the run and their roles:
+
+writer       | file                | role
+=========================================
+/usr/bin/cat | ./outputs/o12.txt   | out
+/usr/bin/cat | ./outputs/o1234.txt | out
+/usr/bin/cat | ./outputs/o4.txt    | out
+/usr/bin/cat | ./temp/t12.txt      | tmp
+/usr/bin/cat | ./temp/t123.txt     | tmp
+/usr/bin/cat | ./temp/t4.txt       | tmp

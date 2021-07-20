@@ -1,0 +1,7 @@
+Programs executed during the run:
+
+program
+============
+./run.sh
+/usr/bin/cat
+/usr/bin/date

@@ -1,0 +1,16 @@
+
+
+---------------------------------------------------------------------------------------------------
+Q1_DIRECT_UPSTREAM_FILE_DEPENDENCY : What files does the given data file directly depend upon?
+
+q1_direct_upstream_file_dependency(File, UpstreamFile)
+...................................................................................................
+
+
+---------------------------------------------------------------------------------------------------
+Q2_DIRECT_DOWNSTREAM_FILE_DEPENDENCY : What files depend directly on the given data file?
+
+q2_direct_downstream_file_dependency(File, DownstreamFile)
+...................................................................................................
+q2_direct_downstream_file_dependency('./inputs/input.txt','./outputs/output.txt').
+
