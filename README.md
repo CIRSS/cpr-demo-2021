@@ -1,4 +1,6 @@
 # CPR Demonstration - Provenance Week 2021
 
-For the latest versions of the demonstrations described in the paper,
-please clone [github.com/cirss/cpr](https://github.com/cirss/cpr).
+## Demo paper
+Camera-ready version: [McPhillips-CPR-demo-paper.pdf](https://github.com/CIRSS/cpr-demo-2021/raw/master/paper/McPhillips-CPR-demo-paper.pdf)
+
+LaTeX source: [paper](https://github.com/CIRSS/cpr-demo-2021/tree/master/paper)
